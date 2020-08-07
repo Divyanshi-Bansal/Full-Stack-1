@@ -29,33 +29,14 @@
             display: flex;justify-content: center;align-items: center;
             font-size: 30px; color: blue;
         }
-        #section-1{
-            border-color: greenyellow;
-        }
-        #circle1{
+        #section-1{}
+        #circle{
             border-radius: 34px;
             background-color: goldenrod;
             margin-left: 9px;
         }
-        #circle2{
-            border-radius: 34px;
-            background-color: goldenrod;
-            margin-left: 9px;
-        }
-        #circle3{
-            border-radius: 34px;
-            background-color: goldenrod;
-            margin-left: 9px;
-        }
-        #circle4{
-            border-radius: 34px;
-            background-color: goldenrod;
-            margin-left: 9px;
-        }
-        #section-2{
-            
-        }
-        #section-2:after{
+        #section-2{}
+        #section-2::after{
             content: '';
             display: block;
             clear: both;
@@ -64,15 +45,11 @@
             background-color: lightgrey;
             height: 300px;width: 50%;
             border-radius: 11px;
-            
             font-size: 30px;color: darkcyan;
             display: flex;justify-content: center;align-items: center;
             float: left;
         }
-        #right-sidebar{
-            
-            float: right;
-        }
+        #right-sidebar{float: right;}
         #article{
             height: 95px;width: 570px;
             background-color: darksalmon;
@@ -81,6 +58,20 @@
             font-size: 20px;color: darkred;
             margin-bottom: 5px;
         }
+        #section-3{}
+        #section-3::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #box{
+            width: 300px;
+            height: 150px;
+            background-color: rgba(red, green, blue, alpha);
+            border-radius: 9px;
+            float: right;
+        }
+        
     </style>
 </head>
 <body>
@@ -88,10 +79,10 @@
         <div id="header">Header</div>
         <div id="banner">Banner</div>
         <div id="section-1">Section-1
-            <div id="circle1"></div>
-            <div id="circle2"></div>
-            <div id="circle3"></div>
-            <div id="circle4"></div>
+            <div id="circle"></div>
+            <div id="circle"></div>
+            <div id="circle"></div>
+            <div id="circle"></div>
         </div>
         <div id="section-2">
             <div id="left-sidebar">Main Content</div>
@@ -101,7 +92,12 @@
                 <div id="article">Article-3</div>
             </div>
         </div>
-        <div id="section-3">Section-3</div>
+        <div id="section-3">
+            <div id="box"></div>
+            <div id="box"></div>
+            <div id="box"></div>
+            <div id="box"></div>
+        </div>
         <div id="section-4">Section-4</div>
     </div>
 </body>
