@@ -38,10 +38,10 @@ ul li a:hover{
 }
 .top-left {
     position: absolute;
-    top: 338px;
-    left: 16px;
-    font-size:50px ;color: black;
-    text-shadow: lightblue;
+    top: 280px;
+    left: 270px;
+    font-size:58px ;color: black;
+    background-color: lightyellow;
   }
 h2{
     text-align: center;
@@ -68,7 +68,7 @@ h2{
     float: left;
     display: block;
     height:600px ;width: 50%;
-    background-color: peachpuff;
+    background-color: lightsteelblue;
     border-radius: 11px;
     font-size: 30px;color: black;
     display: flex;justify-content: center;align-items: center;
