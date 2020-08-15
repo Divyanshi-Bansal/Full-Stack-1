@@ -46,4 +46,7 @@ h2{
 .members img{
     border-radius: 50%;
     float: left;
+    box-shadow: 3px 3px 3px 3px lightslategray;
+    height: 15%;
+    width: 25%;
 }
