@@ -90,5 +90,16 @@ h1{
     text-align: center;
     margin: 24px;
     padding: 15px;
-    
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin: 50px;
+}
+.tech li {
+    background-color: red;
+    padding: 3px 4px 3px 4px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
 }
