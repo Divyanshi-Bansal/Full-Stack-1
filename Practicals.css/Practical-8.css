@@ -65,13 +65,14 @@ h1{
     clear: both;
 }
 #left-side{
+    float: left;
     display: block;
     height:600px ;width: 50%;
     background-color: peachpuff;
     border-radius: 11px;
     font-size: 30px;color: black;
     display: flex;justify-content: center;align-items: center;
-    float: left;
+    
 }
 #right-side{
     float: right;
@@ -81,4 +82,13 @@ h1{
     border-radius: 9px;
     display: flex;justify-content: center;align-items: center;
     margin-bottom: 6px;
-  }
+}
+.tech{
+    display: block;
+    width: 250px;
+    box-shadow: 3px 3px 3px 3px lightslategray;
+    text-align: center;
+    margin: 24px;
+    padding: 15px;
+    
+}
