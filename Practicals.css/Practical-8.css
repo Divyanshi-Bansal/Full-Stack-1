@@ -33,6 +33,9 @@ ul li a:hover{
 }
 .banner{
     margin-top: 15px;
-    height: 100vh;width: 100%;
-
+    height: 100vh;width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
