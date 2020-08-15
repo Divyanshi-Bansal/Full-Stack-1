@@ -1,4 +1,6 @@
-
+*{
+    margin: 10px;
+}
 ul{
     position: fixed;
     top: 0;
