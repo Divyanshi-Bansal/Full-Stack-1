@@ -88,13 +88,34 @@ h2{
     float: right;
 }
 #box img{
-    height: 27vh;width: 80%;
+    height: 27vh;width: 85%;
     border-radius: 11px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 8px;
     margin-left: 15%;
+}
+.box-1{
+    position: absolute;
+    top:1450px;
+    left: 900px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.box-2{
+    position: absolute;
+    top:1450px;
+    left: 900px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.box-3{
+    position: absolute;
+    top:1450px;
+    left: 900px;
+    font-size: 35px;
+    font-weight: bold;
 }
 h1{
     margin-left: 6px;margin-bottom: 7px;
