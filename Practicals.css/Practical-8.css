@@ -45,6 +45,9 @@ h2{
     color: black;
     font-size: 35px;
 }
+h1{
+    margin-left: 6px;margin-bottom: 7px;
+}
 .members{
     margin-left: 20px;
 }
@@ -56,9 +59,15 @@ h2{
     width: 20%;
     margin-right: 71px;
 }
+.bars::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 .left-side{
-    background-color: hsla(hue, saturation, lightness, alpha);
-    height:500px ;width: 70%;
+    display: block;
+    height:600px ;width: 50%;
+    background-color: peachpuff;
     border-radius: 11px;
     font-size: 30px;color: black;
     display: flex;justify-content: center;align-items: center;
@@ -69,7 +78,7 @@ h2{
 }
 .box{
     width: 600px;height: 140px;
-    border-radius: 9px;
+    border-radius: 9px; 
     display: flex;justify-content: right;align-items: center;
     font-size: 25px;color: black;
     margin-bottom: 5px;
