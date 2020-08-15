@@ -1,6 +1,8 @@
 .container{
     background-color: gainsboro;
     position: relative;
+    width: 100%;
+    overflow-x: hidden
 }
 ul{
     position: sticky;
@@ -38,11 +40,14 @@ ul li a:hover{
 }
 .top-left {
     position: absolute;
-    top: 280px;
-    left: 270px;
+    top:190px;
+    left: 16px;
     font-size:58px ;color: black;
-    background-color: lightyellow;
-  }
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 20%; /* Full width */
+    padding: 20px; /* Some padding */
+}
 h2{
     text-align: center;
     color: black;
@@ -79,16 +84,19 @@ h2{
     
 }
 #right-side{
+    
+}
+
+#box img{
     float: right;
+    display: flex;justify-content: center;align-items: center;
+    height: 30vh;width: 50%;
+    border-radius: 9px;
+    
+    margin-bottom: 9px;
 }
 h1{
     margin-left: 6px;margin-bottom: 7px;
-}
-#box img{
-    height: 30vh;width: 70%;
-    border-radius: 9px;
-    display: flex;justify-content: center;align-items: center;
-    margin-bottom: 6px;
 }
 .tech{
     display: block;
