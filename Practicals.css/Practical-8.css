@@ -75,11 +75,12 @@ h1{
 }
 .right-side{
     float: right;
+    display: block;
 }
 .box{
-    width: 600px;height: 140px;
+    width: 50px;height: 100px;
     border-radius: 9px; 
-    display: flex;justify-content: right;align-items: center;
+    display: flex;justify-content:center;align-items: center;
     font-size: 25px;color: black;
     margin-bottom: 5px;
 }
