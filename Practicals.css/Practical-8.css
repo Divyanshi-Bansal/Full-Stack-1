@@ -56,3 +56,11 @@ h2{
     width: 20%;
     margin-right: 71px;
 }
+.left-side{
+    background-color: hsla(hue, saturation, lightness, alpha);
+    height:500px ;width: 70%;
+    border-radius: 11px;
+    font-size: 30px;color: black;
+    display: flex;justify-content: center;align-items: center;
+    float: left;
+}
