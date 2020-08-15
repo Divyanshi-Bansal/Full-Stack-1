@@ -1,8 +1,7 @@
-*{
-    margin: 10px;
-}
+
+
 ul{
-    position: fixed;
+    position: sticky;
     top: 0;
     list-style: none; /*TO REMOVE BULLETS FROM LIST */
     background-color: grey;width: 100%;
@@ -34,7 +33,7 @@ ul li a:hover{
 }
 .banner img{
     margin-top: 15px;
-    height: 100vh;width: 100vw;
+    height: 100vh;width: 98vw;
     display: flex;
     justify-content: center;
     align-items: center;
