@@ -64,3 +64,9 @@ h2{
     display: flex;justify-content: center;align-items: center;
     float: left;
 }
+.right-side{
+    float: right;
+}
+.box{
+    
+}
