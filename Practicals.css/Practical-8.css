@@ -59,12 +59,12 @@ h1{
     width: 20%;
     margin-right: 71px;
 }
-.bars::after{
+#bars::after{
     content: '';
     display: block;
     clear: both;
 }
-.left-side{
+#left-side{
     display: block;
     height:600px ;width: 50%;
     background-color: peachpuff;
@@ -73,14 +73,12 @@ h1{
     display: flex;justify-content: center;align-items: center;
     float: left;
 }
-.right-side{
+#right-side{
     float: right;
-    display: block;
 }
-.box{
-    width: 50px;height: 100px;
-    border-radius: 9px; 
-    display: flex;justify-content:center;align-items: center;
-    font-size: 25px;color: black;
-    margin-bottom: 5px;
-}
+#box img{
+    height: 30vh;width: 70%;
+    border-radius: 9px;
+    display: flex;justify-content: center;align-items: center;
+    margin-bottom: 6px;
+  }
