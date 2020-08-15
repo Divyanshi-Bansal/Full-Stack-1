@@ -52,6 +52,7 @@ h2{
     text-align: center;
     color: black;
     font-size: 35px;
+    margin: 50px;
 }
 .members{
     margin-left: 20px;
@@ -65,7 +66,11 @@ h2{
     margin-right: 71px;
     margin-bottom: 15px;
 }
-
+#bars{
+    display: flex;
+    flex-direction: row;
+    width: 98vw;
+}
 #bars::after{
     content: '';
     display: block;
@@ -83,12 +88,13 @@ h2{
     float: right;
 }
 #box img{
-    height: 30vh;width: 50%;
+    height: 27vh;width: 80%;
     border-radius: 11px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 8px;
+    margin-left: 15%;
 }
 h1{
     margin-left: 6px;margin-bottom: 7px;
