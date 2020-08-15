@@ -45,8 +45,8 @@ ul li a:hover{
     font-size:58px ;color: black;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 20%; /* Full width */
-    padding: 20px; /* Some padding */
+    width: 20%; 
+    padding: 20px; 
 }
 h2{
     text-align: center;
@@ -81,7 +81,6 @@ h2{
 }
 #right-side{
     float: right;
-    left: 100%;
 }
 #box img{
     height: 30vh;width: 50%;
