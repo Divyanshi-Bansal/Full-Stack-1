@@ -95,6 +95,13 @@ h1{
     float: left;
     margin: 50px;
 }
+.tech img{
+    border-radius: 22px;
+    box-shadow: 3px 3px 3px 3px lightslategray;
+    width: 250px;
+    height: 150px;
+    
+}
 .tech li {
     background-color: red;
     padding: 3px 4px 3px 4px;
