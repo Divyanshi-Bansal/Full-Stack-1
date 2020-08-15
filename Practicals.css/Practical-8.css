@@ -46,9 +46,6 @@ h2{
     color: black;
     font-size: 35px;
 }
-h1{
-    margin-left: 6px;margin-bottom: 7px;
-}
 .members{
     margin-left: 20px;
 }
@@ -77,6 +74,9 @@ h1{
 }
 #right-side{
     float: right;
+}
+h1{
+    margin-left: 6px;margin-bottom: 7px;
 }
 #box img{
     height: 30vh;width: 70%;
