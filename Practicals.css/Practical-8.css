@@ -27,12 +27,6 @@ ul li a:hover{
     background-color: whitesmoke;
     color: tomato;
 }
-.header{
-    height: 100px;
-    width: 100%;
-    font-size: 50px;
-    text-align:left ;padding-top: 100px;
-}
 .banner img{
     margin-top: 15px;
     height: 100vh;width: 98vw;
