@@ -25,3 +25,9 @@ ul li a:hover{
     background-color: whitesmoke;
     color: tomato;
 }
+.header{
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+    text-align:left ;
+}
