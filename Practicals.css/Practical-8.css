@@ -1,5 +1,9 @@
+*{
+    margin: 0px;
+}
 ul{
     list-style: none;
+    background-color: gray;
 }
 ul li{
     display: inline-block;
