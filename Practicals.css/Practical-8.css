@@ -1,8 +1,8 @@
 *{
-    margin: 0px;
+    margin: 0;
 }
 ul{
-    list-style: none;
+    list-style: none; /*TO REMOVE BULLETS FROM LIST */
     background-color: gray;
 }
 ul li{
@@ -10,4 +10,9 @@ ul li{
 }
 ul li a{
     text-decoration: none;
+    color: black;
+    font-size: 40px;font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 15px 20px;
+
 }
