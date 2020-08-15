@@ -18,4 +18,5 @@ ul li a{
 }
 ul li a:hover{
     background-color: whitesmoke;
+    color: tomato;
 }
