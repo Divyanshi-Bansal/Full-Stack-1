@@ -68,5 +68,9 @@ h2{
     float: right;
 }
 .box{
-    
+    width: 600px;height: 140px;
+    border-radius: 9px;
+    display: flex;justify-content: right;align-items: center;
+    font-size: 25px;color: black;
+    margin-bottom: 5px;
 }
