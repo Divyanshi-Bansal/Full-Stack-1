@@ -43,3 +43,7 @@ h2{
     text-align: center;
     color: black;
 }
+.members img{
+    border-radius: 50%;
+    float: left;
+}
