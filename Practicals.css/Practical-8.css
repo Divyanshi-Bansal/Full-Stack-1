@@ -58,6 +58,11 @@ h2{
     height: 10%;
     width: 20%;
     margin-right: 71px;
+    margin-bottom: 15px;
+}
+#bars{
+    display: flex;
+    flex-direction: column;
 }
 #bars::after{
     content: '';
@@ -66,7 +71,6 @@ h2{
 }
 #left-side{
     float: left;
-    display: block;
     height:600px ;width: 50%;
     background-color: rgb(219, 192, 182) ;
     border-radius: 11px;
