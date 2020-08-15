@@ -1,5 +1,5 @@
 .container{
-    background-color: gainsboro;
+    background-color: wheat;
     position: relative;
     width: 100%;
     overflow-x: hidden
@@ -65,35 +65,31 @@ h2{
     margin-right: 71px;
     margin-bottom: 15px;
 }
-#bars{
-    display: flex;
-    flex-direction: column;
-}
+
 #bars::after{
     content: '';
     display: block;
     clear: both;
 }
 #left-side{
-    float: left;
     height:600px ;width: 50%;
     background-color: rgb(219, 192, 182) ;
     border-radius: 11px;
     font-size: 30px;color: black;
     display: flex;justify-content: center;align-items: center;
-    
+    float: left;
 }
 #right-side{
-    
-}
-
-#box img{
     float: right;
-    display: flex;justify-content: center;align-items: center;
+    left: 100%;
+}
+#box img{
     height: 30vh;width: 50%;
-    border-radius: 9px;
-    
-    margin-bottom: 9px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
 }
 h1{
     margin-left: 6px;margin-bottom: 7px;
