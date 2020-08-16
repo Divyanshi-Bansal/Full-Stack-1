@@ -5,7 +5,7 @@
     overflow-x: hidden
 }
 ul{
-    position: sticky;
+    position: fixed;
     top: 0;
     list-style: none; /*TO REMOVE BULLETS FROM LIST */
     background-color: grey;width: 100%;
