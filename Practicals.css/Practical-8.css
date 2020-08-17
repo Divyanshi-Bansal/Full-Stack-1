@@ -101,27 +101,27 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom:1vh;
     margin-left: 10%;
 }
 .box-1{
     position: absolute;
-    top:1400px;
-    left: 860px;
+    top:182vh;
+    left: 54vw;
     font-size: 35px;
     font-weight: bold;
 }
 .box-2{
     position: absolute;
-    top:1620px;
-    left: 860px;
+    top:211vh;
+    left: 54vw;
     font-size: 35px;
     font-weight: bold;
 }
 .box-3{
     position: absolute;
-    top:1820px;
-    left: 860px;
+    top:1237vh;
+    left: 54vw;
     font-size: 35px;
     font-weight: bold;
 }
