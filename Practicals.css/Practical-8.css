@@ -3,7 +3,6 @@
     position: relative;
     width: 100%;
     overflow-x: hidden;
-    /*overflow-y: hidden; */ 
 }
 ul{
     
@@ -183,7 +182,8 @@ h1{
     height: 76px;width: 100%;
     position: absolute;
     bottom: 0;
-    background-color:lightseagreen;    
+    background-color:lightseagreen;   
+    margin-bottom: 0; 
 }
 .footer li {
     font-style: italic;
