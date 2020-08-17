@@ -172,8 +172,9 @@ h1{
     color: wheat;
 }
 .footer{
-    height: 9vh;width: 100%;
-    position: sticky;
+    height: 10vh;width: 100%;
+    position: absolute;
+    bottom: 0;
     background-color:lightseagreen;    
 }
 .footer li {
@@ -190,7 +191,7 @@ h1{
 .footer li a:hover{
     color: indigo;
     font-variant-caps: unicase;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
 }
 .footer p{
