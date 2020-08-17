@@ -171,11 +171,7 @@ h1{
     border-radius: 10px;
     color: wheat;
 }
-h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .footer{
     height: 10vh;width: 100%;
     position: absolute;
