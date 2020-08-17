@@ -189,8 +189,9 @@ h1{
 }
 .footer li a:hover{
     color: indigo;
-    font-variant-caps: all-petite-caps;
-    font-size: 20px;
+    font-variant-caps: unicase;
+    font-size: 35px;
+    font-weight: bold;
 }
 .footer p{
     display: flex;
