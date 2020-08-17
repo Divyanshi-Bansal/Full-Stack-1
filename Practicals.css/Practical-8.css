@@ -188,6 +188,9 @@ h1{
     color: greenyellow;
 }
 .footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-style: italic;
     font-weight: lighter;
     font-size: 20px;
