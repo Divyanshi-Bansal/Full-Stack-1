@@ -5,11 +5,12 @@
     overflow-x: hidden
 }
 ul{
-    position: sticky;
-    top: 0;
+    
     list-style: none; /*TO REMOVE BULLETS FROM LIST */
     background-color: grey;width: 100%;
     overflow: hidden;
+    position: sticky;
+    top: 0;
 }
 ul li{
     display: inline-block;
@@ -171,7 +172,7 @@ h1{
     color: wheat;
 }
 .footer{
-    height: 70px;width: 100%;
+    height: 9vh;width: 100%;
     position: static;
     background-color:lightseagreen;    
 }
@@ -179,7 +180,7 @@ h1{
     font-style: italic;
     text-align: center;
     list-style: none;
-    margin-top: 7px;
+    margin-top: 1vh;
 }
 .footer li a{
     text-decoration: none;
