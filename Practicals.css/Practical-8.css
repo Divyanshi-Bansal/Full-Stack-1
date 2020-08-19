@@ -138,7 +138,7 @@ h1{
     padding: 15px;
     background-color: white;
     border-radius: 15px;
-    float: left;
+    /* float: left; */
     margin: 50px;
 }
 .tech img{
@@ -215,5 +215,8 @@ h1{
 }
 
 .tech-box{
+    display:flex;
+    flex-direction: row;
     height: 60vh;
+    background-color:yellow;
 }
