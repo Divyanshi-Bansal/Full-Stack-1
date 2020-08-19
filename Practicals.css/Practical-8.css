@@ -14,14 +14,6 @@ html{
     top:0;
     width:100%;
 }
-/* ul{
-    
-    list-style: none; /*TO REMOVE BULLETS FROM LIST */
-    /* overflow: hidden; */
-    /* position: fixed; 
-    top: 0;  
-    width: 100%;
-} */
 ul li{
     display: inline-block;
     margin-left: 30px;
