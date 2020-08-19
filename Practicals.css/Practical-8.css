@@ -2,18 +2,18 @@
     background-color: wheat;
     position: relative;
     width: 100%;
-    overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;
 }
-.header{
-    height:13vh;
-    background-color:grey;
-    position:fixed;
-    top:0;
-    width:100%;
-}
+ ul{
+    height:12vh;
+    background-color: grey;
+    list-style: none; /*TO REMOVE BULLETS FROM LIST */
+    position: sticky; 
+    top: 0;  
+    width: 100%;
+} 
 ul li{
     display: inline-block;
     margin-left: 30px;
@@ -23,9 +23,10 @@ ul li a{
     display: block;width: 100%;
     text-decoration: none;
     color: black;
-    font-size: 40px;font-weight: bold;
+    font-size: 40px;
+    font-weight: bold;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 20px 25px;
+    padding: 20px 20px 20px 20px;
     text-align: center;
 }
 ul li a:hover{
@@ -33,7 +34,7 @@ ul li a:hover{
     color: tomato;
 }
 .banner img{
-    margin-top: 30px;
+    margin-top: 20px;
     height: 100vh;
     width: 98vw;
     display: flex;
@@ -80,7 +81,7 @@ h2{
 #bars{
     display: flex;
     flex-direction: row;
-    width: 98vw;
+    width: 100%;
 }
 #bars::after{
     content: '';
@@ -109,21 +110,21 @@ h2{
 }
 .box-1{
     position: absolute;
-    top:182vh;
+    top:200vh;
     left: 54vw;
     font-size: 35px;
     font-weight: bold;
 }
 .box-2{
     position: absolute;
-    top:211vh;
+    top:230vh;
     left: 54vw;
     font-size: 35px;
     font-weight: bold;
 }
 .box-3{
     position: absolute;
-    top:237vh;
+    top:260vh;
     left: 54vw;
     font-size: 35px;
     font-weight: bold;
@@ -219,9 +220,14 @@ h1{
     display:flex;
     flex-direction: row;
     height: 68vh;
+    width: 100%;
 }
 
 .desc{
     width:100%;
     font-variant: small-caps;
+}
+
+.space{
+    height:12vh
 }
