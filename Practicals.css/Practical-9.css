@@ -91,6 +91,9 @@
  #team h1{
    text-align: center;
  }
+ .members{
+   margin-left: 20px;
+ }
  .members img{
    border-radius: 50%;
    float: left;
@@ -98,7 +101,4 @@
    height: 10%;
    width: 20%;
    margin-left: 20px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
  }
