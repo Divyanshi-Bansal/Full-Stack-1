@@ -13,6 +13,7 @@
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    background-color: wheat;
   }
   #header {
     background-color: grey;
