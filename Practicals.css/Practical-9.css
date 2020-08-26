@@ -79,4 +79,7 @@
    padding: 20px; 
    z-index: 1;
  }
- 
+ #team{
+   width: 100%;
+   margin: 15px auto;
+ }
