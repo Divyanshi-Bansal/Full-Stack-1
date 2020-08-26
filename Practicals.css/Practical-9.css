@@ -66,5 +66,6 @@
     color: white;
  }
  .banner img{
-   
+   background-size: cover;
+   background-position: center;
  }
