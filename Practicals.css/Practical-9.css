@@ -88,13 +88,16 @@
    display: block;
    clear: both;
  }
+ team h1{
+   text-align: center;
+ }
  .members{
    border-radius: 50%;
    float: left;
    box-shadow: 3px 3px 3px 3px lightslategrey;
    height: 10%;
    width: 20%;
-   margin-left: 40px;
+   margin-left: 20px;
    display: flex;
    justify-content: center;
    align-items: center;
