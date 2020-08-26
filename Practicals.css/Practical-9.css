@@ -70,7 +70,7 @@
    background-size: cover;
    background-position: center;
  }
- .top-left{
+ .top-left h2{
    margin: 20px 20px;
    color: black;
    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
@@ -79,3 +79,4 @@
    padding: 20px; 
    z-index: 1;
  }
+ 
