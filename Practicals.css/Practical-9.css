@@ -24,17 +24,17 @@
     top: 0;
     height: 70px;
   }
-  .menu {
+  menu {
     list-style: none;
     float: right;
     padding: 0 20px;
   }
 
-  .menu li {
+  menu li {
     display: inline-block;
     line-height: 70px;
   }
-  .menu li a{
+  menu li a{
     display: block;
     text-decoration: none;
     color: black;
@@ -42,12 +42,12 @@
     font-size: 40px;
     font-weight: bold;
   }
-  .menu li a:hover{
+  menu li a:hover{
     color: tomato;
     background-color: whitesmoke;
   }
-  .show-btn,
-  .hide-btn,
+  show-btn,
+  hide-btn,
   #checkb{
     font-size: 30px;
     line-height: 70px;
