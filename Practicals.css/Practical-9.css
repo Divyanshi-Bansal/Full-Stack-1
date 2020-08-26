@@ -88,10 +88,10 @@
    display: block;
    clear: both;
  }
- team h1{
+ #team h1{
    text-align: center;
  }
- .members{
+ .members img{
    border-radius: 50%;
    float: left;
    box-shadow: 3px 3px 3px 3px lightslategrey;
