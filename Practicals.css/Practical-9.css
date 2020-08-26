@@ -56,3 +56,15 @@
     padding-right: 20px;
     display: none;
   }
+.banner{
+  width: 100%;
+    margin-top: 90px;
+    height: 680px;
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 40px;
+    color: white;
+ }
+ .banner img{
+   
+ }
