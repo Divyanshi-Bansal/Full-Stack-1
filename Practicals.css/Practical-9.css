@@ -385,7 +385,7 @@
     top: 10px;
   }
 
-  #check:checked ~ .menu {
+  #checkb:checked ~ .menu {
     right: 0%;
   }
 
