@@ -24,18 +24,20 @@
     top: 0;
     height: 70px;
   }
-  ul {
+  .menu {
     list-style: none;
     float: right;
     padding: 0 20px;
     position: fixed;
+    background-color: grey;
+    height: 12vh;
   }
 
-  .ul li {
+  .menu li {
     display: inline-block;
     line-height: 70px;
   }
-  .ul li a{
+  .menu li a{
     display: block;
     text-decoration: none;
     color: black;
@@ -43,7 +45,7 @@
     font-size: 40px;
     font-weight: bold;
   }
-  .ul li a:hover{
+  .menu li a:hover{
     color: tomato;
     background-color: whitesmoke;
   }
