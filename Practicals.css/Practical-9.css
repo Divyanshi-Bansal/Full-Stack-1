@@ -145,31 +145,35 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 75vh;
-  margin: 10px;
+  height: 600px;
 }
-.right .box img {
+.box img {
   margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 27vh;
+  height: 25vh;
+  width: 100%;
+  overflow: hidden;
   border-radius: 3px;
 }
 .box1{
-  top:200vh;
+  position: absolute;
+  top:150vh;
   left: 54vw;
   font-size: 35px;
   font-weight: bold;
 }
 .box2{
-  top:230vh ;
+  position: absolute;
+  top:200vh ;
   left: 54vw;
   font-size: 35px;
   font-weight: bold;
 }
 .box3{
-  top: 260vh;
+  position: absolute;
+  top: 250vh;
   left: 54vw;
   font-size: 35px;
   font-weight: bold;
