@@ -260,3 +260,8 @@
   list-style: none;
   margin-top: 0.9vh;
 }
+.footer li a{
+  text-decoration: none;
+  font-style: 20px;
+  color: greenyellow;
+}
