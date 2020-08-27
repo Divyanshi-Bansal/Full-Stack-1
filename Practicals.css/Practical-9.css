@@ -88,3 +88,21 @@
    margin-top: 20px;
    margin-bottom: 40px;
  }
+ .section-1-member img{
+  border-radius: 50%;
+  float: left;
+  box-shadow: 3px 3px 3px 3px lightslategray;
+  height: 10%;
+  width: 20%;
+  margin-right: 71px;
+  margin-bottom: 15px;
+ }
+ .content {
+  flex-direction: column;
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  justify-content: center;
+  align-items: center;
+  clear: both;
+}
