@@ -462,15 +462,30 @@
   }
 }
 
-@media (min-width:460px) and (max-width:633px){
+@media (max-width:680px){
   .banner h2{
     margin: 20px 20px;
     font-size: 28px;
-    color: black;
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 38%; 
     position: absolute;
   }
-
+  .section-1-member img{
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 3px lightslategray;
+    height: 25%;
+    width: 55%;
+   }
+   .tech-box{
+    display: block;
+    width: 55%;
+    box-shadow: 3px 3px 3px 3px lightslategray;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; 
+    margin: 50px;
+  }
 }
