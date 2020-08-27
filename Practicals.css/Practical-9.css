@@ -366,7 +366,7 @@
 }
 
 @media (min-width: 801px) and (max-width: 1020px) {
-  .sec-1-box img {
+  .section-1-member img {
     float: left;
     background-color: rgb(224, 217, 184);
     width: 25%;
@@ -379,7 +379,7 @@
 }
 
 @media (min-width: 1020px) and (max-width: 1419px) {
-  .box {
+  .tech-box {
     margin-left: 50px;
     margin-bottom: 30px;
     border-radius: 5px;
@@ -391,7 +391,7 @@
   }
 }
 @media (max-width: 510px) {
-  .box {
+  .tech-box {
     margin-left: 50px;
     margin-bottom: 30px;
     border-radius: 5px;
@@ -401,7 +401,7 @@
     background-color: rgb(233, 215, 160);
     overflow: hidden;
   }
-  .sec-1-box img {
+  .section-1-member img {
     float: left;
     background-color: rgb(243, 208, 228);
     width: 60%;
@@ -411,7 +411,7 @@
     box-shadow: 2px 2px 2px 2px grey;
     margin-bottom: 20px;
   }
-  .sec-4 {
+  .section-4 {
     height: 10vh;
     margin-top: 10px;
     margin-bottom: 10px;
