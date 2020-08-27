@@ -81,8 +81,7 @@
  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
  color: #f1f1f1; /* Grey text */
  width: 20%; 
- padding: 20px; 
- z-index: 1;
+ position: absolute;
 }
  .section-1{
    float: left;
@@ -354,7 +353,24 @@
    padding: 20px; 
    z-index: 1;
   }
+  #section-1 {
+    width: 100%;
+  }
 
+  #section-1::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
 
+  .section-1-member img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 15%;
+    margin-bottom: 20px;
+  }
+  
 
 }
