@@ -74,6 +74,16 @@
   align-items: center;
   border-radius: 13px;
  }
+ .banner h2 {
+  margin: 20px 20px;
+  font-size: 58px;
+ color: black;
+ background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+ color: #f1f1f1; /* Grey text */
+ width: 20%; 
+ padding: 20px; 
+ z-index: 1;
+}
  .section-1{
    float: left;
    width: 100%;
