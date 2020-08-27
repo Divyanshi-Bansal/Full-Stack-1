@@ -489,3 +489,26 @@
     margin: 50px;
   }
 }
+
+@media (min-width:1200) and (max-width:1464px){
+  .section-1-member img{
+    border-radius: 50%;
+    float: left;
+    box-shadow: 3px 3px 3px 3px lightslategray;
+    height: 10%;
+    width: 17%;
+    margin-right: 61px;
+    margin-bottom: 15px;
+   }
+   .tech-box{
+    display: block;
+    width: 16%;
+    box-shadow: 3px 3px 3px 3px lightslategray;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    float: left; 
+    margin: 50px;
+   }
+
+}
