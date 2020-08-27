@@ -114,3 +114,14 @@
   margin-top: 20px;
   margin-bottom: 10px;
 }
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 50%;
+  font-size: 30px;
+  color: black;
+  background-color: rgb(219, 192, 182) ;
+  border-radius: 11px;
+}
