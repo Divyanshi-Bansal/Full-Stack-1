@@ -99,16 +99,20 @@
  #team h1{
    text-align: center;
  }
- #team .members{
-   margin-left: 20px;
+ .members{
+  float: left;
+  width: 98vw;
+  margin-top: 20px;
+  margin-bottom: 50px;
  }
- #team .members img{
+ .sec-1-box img{
    border-radius: 50%;
    float: left;
    box-shadow: 3px 3px 3px 3px lightslategrey;
    height: 10%;
    width: 20%;
-   margin-left: 20px;
+   margin-left: 40px;
+   margin-bottom: 30px;
  }
  #sec2-container{
    content: '';
