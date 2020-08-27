@@ -182,7 +182,6 @@
     display: block;
     width: 250px;
     box-shadow: 3px 3px 3px 3px lightslategray;
-    text-align: center;
     margin: 24px;
     padding: 15px;
     background-color: white;
@@ -196,4 +195,9 @@
   width: 100%;
   height: 20vh;
   margin-bottom: 10px;
+}
+.tech-box-title h3{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
