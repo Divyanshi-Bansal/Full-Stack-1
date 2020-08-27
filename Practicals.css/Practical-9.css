@@ -408,5 +408,23 @@
     width: 28%; 
     position: absolute;
   }
+  .section-1-member img{
+    border-radius: 50%;
+    float: left;
+    box-shadow: 3px 3px 3px 3px lightslategray;
+    height: 25%;
+    width: 35%;
+    margin-left: 50px;
+    margin-right: 41px;
+    margin-bottom: 20px;
+   }
+   .section-2 {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 98vw;
+  }
 
 }
