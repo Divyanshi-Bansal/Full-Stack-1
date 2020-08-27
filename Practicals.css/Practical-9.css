@@ -273,3 +273,67 @@
     font-size: 25px;
     font-weight: bold;
 }
+@media (min-width:800px) and (max-width:1199px){
+  .header .menu li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 13px ;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .menu li a:hover{
+    color: tomato;
+    background-color: whitesmoke;
+    height: 11vh;
+  }
+  .banner{
+    width: 100%;
+    margin-top: 35px;
+    height: 80vh;
+    margin-bottom: 20px;
+    display: flex;
+ }
+  .banner img{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+  }
+  .banner h2 {
+   margin: 20px 20px;
+   font-size: 48px;
+   color: black;
+   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+   color: #f1f1f1; /* Grey text */
+   width: 30%; 
+   position: absolute;
+  }
+  .section-1{
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .section-1-member img{
+   border-radius: 50%;
+   float: left;
+   box-shadow: 3px 3px 3px 3px lightslategray;
+   height: 10%;
+   width: 17%;
+   margin-right: 61px;
+   margin-bottom: 15px;
+  }
+  .left h2{
+    margin-bottom: 8px;
+    margin-left: 6px;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .left p{
+    margin-left: 8px;
+    font-size:25px ;
+  }
+}
