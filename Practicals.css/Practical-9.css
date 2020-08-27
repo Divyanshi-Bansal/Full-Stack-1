@@ -265,3 +265,9 @@
   font-style: 20px;
   color: greenyellow;
 }
+.footer li a:hover{
+  color: indigo;
+    font-variant-caps: unicase;
+    font-size: 25px;
+    font-weight: bold;
+}
