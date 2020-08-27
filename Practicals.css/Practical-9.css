@@ -7,12 +7,10 @@
     scroll-padding-top: 70px;
     scroll-behavior: smooth;
   }
-  .body{
-    overflow: hidden;
-  }
+  
   .container {
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
     background-color: wheat;
   }
   .header {
@@ -86,7 +84,6 @@
  .section-1{
    float: left;
    width: 100%;
-   margin: 40px;
    margin-top: 30px;
    margin-bottom: 40px;
  }
@@ -141,7 +138,7 @@
   float: right;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 48%;
   height: 600px;
 }
 .box img {
@@ -154,31 +151,32 @@
   overflow: hidden;
   border-radius: 3px;
 }
-.box1{
+.box .project-1{
   position: absolute;
-  top:100vh;
+  top:190vh;
   left: 54vw;
   font-size: 35px;
   font-weight: bold;
-}
-.box2{
+} 
+.box .project-2{
   position: absolute;
-  top:200vh ;
-  left: 54vw;
-  font-size: 35px;
-  font-weight: bold;
+    top:220vh;
+    left: 54vw;
+    font-size: 35px;
+    font-weight: bold;
 }
-.box3{
-  position: absolute;
-  top: 250vh;
-  left: 54vw;
-  font-size: 35px;
-  font-weight: bold;
+.box .project-3{
+    position: absolute;
+    top:250vh;
+    left: 54vw;
+    font-size: 35px;
+    font-weight: bold;
 }
+
 .section-3{
   float: left;
   margin-top: 20px;
-  width: 100%;
+  width: 98vw;
   margin-bottom: 30px;
   overflow: hidden;
 }
@@ -241,7 +239,7 @@
 }
 .section-4{
   height:76px ;
-  width: 100%;
+  width:100%;
   background-color: rgb(84, 139, 173) ;
   margin-bottom: 0px;
   margin-top: 30px;
