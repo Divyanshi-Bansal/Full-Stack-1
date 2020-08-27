@@ -368,25 +368,45 @@
     transition: 1s;
     padding: 80px 0;
   }
-
   .menu li {
     display: block;
     padding: 20px;
     border-bottom: 1px white solid;
   }
-
   .menu li a {
     display: block;
   }
-
   .hide-btn {
     position: absolute;
     right: 30px;
     top: 10px;
   }
-
   #checkb:checked ~ .menu {
     right: 0%;
+  }
+  .banner{
+    width: 100%;
+    margin-top: 35px;
+    height: 60vh;
+    margin-bottom: 20px;
+    display: flex;
+ }
+  .banner img{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+  }
+  .banner h2{
+    margin: 20px 20px;
+    font-size: 38px;
+    color: black;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 28%; 
+    position: absolute;
   }
 
 }
