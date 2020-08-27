@@ -124,4 +124,25 @@
   color: black;
   background-color: rgb(219, 192, 182) ;
   border-radius: 11px;
+  float: left;
+  overflow: hidden;
+}
+.left h1{
+  text-align: left;
+  margin-bottom: 4px;
+}
+.right{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px;
+}
+.right .box img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 27vh;
+  margin: 10px;
+  border-radius: 3px;
 }
