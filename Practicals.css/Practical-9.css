@@ -61,11 +61,9 @@
 .banner{
     width: 100%;
     margin-top: 90px;
-    height: 680px;
+    height: 100vh;
     margin-bottom: 15px;
     display: flex;
-    font-size: 40px;
-    color: white;
  }
  .banner img{
   height: 100vh;
@@ -75,7 +73,7 @@
   align-items: center;
   border-radius: 13px;
  }
- .top-left h2{
+ .banner .top-left{
    margin: 20px 20px;
    color: black;
    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
@@ -84,35 +82,9 @@
    padding: 20px; 
    z-index: 1;
  }
- #team{
-   width: 100%;
-   margin: 15px auto;
- }
- #team::after{
-   content: '';
-   display: block;
-   clear: both;
- }
- #team h1{
-   text-align: center;
- }
- .members{
-  float: left;
-  width: 98vw;
-  margin-top: 20px;
-  margin-bottom: 50px;
- }
- .sec-1-box img{
-   border-radius: 50%;
+ .section-1{
    float: left;
-   box-shadow: 3px 3px 3px 3px lightslategrey;
-   height: 10%;
-   width: 20%;
-   margin-left: 40px;
-   margin-bottom: 30px;
- }
- #sec2-container{
-   content: '';
-   display: block;
-   clear: both;
+   width: 98vw;
+   margin-top: 20px;
+   margin-bottom: 40px;
  }
