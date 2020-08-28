@@ -57,6 +57,14 @@
     visibility: hidden;
     z-index: -10;
   }
+  .sidebar{
+      widows: 20%;
+      height: 100%;
+      position: fixed;
+      top: 70px;
+      background-color: #353b48;
+  }
+
 .banner{
     width: 100%;
     margin-top: 40px;
