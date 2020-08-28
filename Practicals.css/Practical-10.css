@@ -37,33 +37,41 @@
     font-size: 40px;
     font-weight: bold;
   }
-  .submenu-1{
+
+  .submenu1 {
     position: absolute;
     width: 200px;
-    background-color: grey;
-    left: 0%;
-    display: none;
-}
-.submenu-2{
+    background-color:grey;
+    left: 0;
+    /* border-radius: 10px; */
+ display: none;
+  }
+  
+  .submenu2 {
     position: absolute;
     width: 200px;
     background-color: grey;
     left: 100%;
-    top: 0%;
-    display: none;
-}
+    top: 0;
+    /* border-radius: 10px; */
+    display:none;
+  }
+  .submenu1 li a ,
+  .submenu2 li a{
+    font-size: 30px;
+    text-align: center;
+  }
 
   .menu li a:hover{
     color: tomato;
     background-color: whitesmoke;
     height: 11vh;
   }
-  .menu li :hover .submenu-1{
-      display: block;
-      transition: 5s;
+  .menu:hover .submenu1{
+       display:block; 
   }
-  .submenu-1 li a:hover .submenu-2{
-      display: block;
+  .submenu1 :hover .submenu2{
+       display: block; 
   }
   .show-btn,
   .hide-btn{
