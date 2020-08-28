@@ -24,22 +24,6 @@
     list-style: none;
     float: right;
   }
-  .submenu-1{
-      position: absolute;
-      width: 200px;
-      background-color: grey;
-      left: 0%;
-      display: none;
-  }
-  .submenu-2{
-      position: absolute;
-      width: 200px;
-      background-color: grey;
-      left: 100%;
-      top: 0%;
-      display: none;
-  }
-
   .menu li {
     display: inline-block;
     line-height: 70px;
@@ -53,15 +37,32 @@
     font-size: 40px;
     font-weight: bold;
   }
+  .submenu-1{
+    position: absolute;
+    width: 200px;
+    background-color: grey;
+    left: 0%;
+    display: none;
+}
+.submenu-2{
+    position: absolute;
+    width: 200px;
+    background-color: grey;
+    left: 100%;
+    top: 0%;
+    display: none;
+}
+
   .menu li a:hover{
     color: tomato;
     background-color: whitesmoke;
     height: 11vh;
   }
-  .menu li a:hover .submenu-1{
+  .menu li :hover .submenu-1{
       display: block;
+      transition: 5s;
   }
-  .submenu-1 li:hover .submenu-2{
+  .submenu-1 li a:hover .submenu-2{
       display: block;
   }
   .show-btn,
