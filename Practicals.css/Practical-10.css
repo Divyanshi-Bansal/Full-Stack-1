@@ -24,6 +24,21 @@
     list-style: none;
     float: right;
   }
+  .submenu-1{
+      position: absolute;
+      width: 200px;
+      background-color: grey;
+      left: 0%;
+      display: none;
+  }
+  .submenu-2{
+      position: absolute;
+      width: 200px;
+      background-color: grey;
+      left: 100%;
+      top: 0%;
+      display: none;
+  }
 
   .menu li {
     display: inline-block;
@@ -42,6 +57,9 @@
     color: tomato;
     background-color: whitesmoke;
     height: 11vh;
+  }
+  .submenu-1 li:hover .submenu-2{
+      display: block;
   }
   .show-btn,
   .hide-btn{
