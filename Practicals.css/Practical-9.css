@@ -490,7 +490,7 @@
   }
 }
 
-@media (min-width:1200) and (max-width:1464px){
+@media (min-width:1200px) and (max-width:1464px){
   .section-1-member img{
     border-radius: 50%;
     float: left;
