@@ -65,8 +65,8 @@
       background-color: #343b48;
   }
   .sidebar ul{
-      list-style: none;
-  }
+    list-style: none;
+}
 
 .banner{
     width: 100%;
@@ -175,7 +175,7 @@
     width: 18%;
     box-shadow: 3px 3px 3px 3px lightslategray;
     padding: 15px;
-    background-color: white;
+    background-color: #ffe5e5;;
     border-radius: 15px;
     float: left; 
     margin: 50px;
@@ -333,7 +333,7 @@
     width: 30%;
     box-shadow: 3px 3px 3px 3px lightslategray;
     padding: 10px;
-    background-color: white;
+    background-color: #ffe5e5;;
     border-radius: 15px;
     float: left; 
     margin: 50px;
@@ -449,7 +449,7 @@
     width: 35%;
     box-shadow: 3px 3px 3px 3px lightslategray;
     padding: 10px;
-    background-color: white;
+    background-color: #ffe5e5;;
     border-radius: 15px;
     float: left; 
     margin: 50px;
@@ -476,7 +476,7 @@
     width: 55%;
     box-shadow: 3px 3px 3px 3px lightslategray;
     padding: 10px;
-    background-color: white;
+    background-color: #ffe5e5;;
     border-radius: 15px;
     display: flex;
     flex-direction: column; 
@@ -499,7 +499,7 @@
     width: 16%;
     box-shadow: 3px 3px 3px 3px lightslategray;
     padding: 15px;
-    background-color: white;
+    background-color: #ffe5e5;;
     border-radius: 15px;
     float: left; 
     margin: 50px;
