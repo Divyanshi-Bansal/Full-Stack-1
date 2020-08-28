@@ -63,6 +63,7 @@
       position: fixed;
       top: 80px;
       background-color: #343b48;
+      left: -100%;
   }
   .sidebar ul{
       list-style: none;
@@ -88,13 +89,15 @@
     color:white;
   }
   .social-btn{
-      font-size: 30px;
+      font-size: 35px;
       color: white;
       position: fixed;
       top: 20px;
       left: 50px;
   }
-  .
+  #chk:checked ~ .sidebar{
+      left: 0;
+  }
 .banner{
     width: 100%;
     margin-top: 40px;
