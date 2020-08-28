@@ -151,27 +151,6 @@
   overflow: hidden;
   border-radius: 3px;
 }
-.box .project-1{
-  position: absolute;
-  top:190vh;
-  left: 54vw;
-  font-size: 35px;
-  font-weight: bold;
-} 
-.box .project-2{
-  position: absolute;
-    top:220vh;
-    left: 54vw;
-    font-size: 35px;
-    font-weight: bold;
-}
-.box .project-3{
-    position: absolute;
-    top:250vh;
-    left: 54vw;
-    font-size: 35px;
-    font-weight: bold;
-}
 
 .section-3{
   float: left;
@@ -359,7 +338,7 @@
     position: fixed;
     top: 0;
     right: -250%;
-    width: 60%;
+    width: 100%;
     height: 100vh;
     background-color: black;
     text-align: center;
@@ -368,19 +347,23 @@
     transition: 1s;
     padding: 80px 0;
   }
+
   .menu li {
     display: block;
     padding: 20px;
     border-bottom: 1px white solid;
   }
+
   .menu li a {
     display: block;
   }
+
   .hide-btn {
     position: absolute;
     right: 30px;
     top: 10px;
   }
+
   #checkb:checked ~ .menu {
     right: 0%;
   }
