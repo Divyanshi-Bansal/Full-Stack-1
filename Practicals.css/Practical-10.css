@@ -67,10 +67,10 @@
     background-color: whitesmoke;
     height: 11vh;
   }
-  .menu:hover .submenu1{
+  .menu li:hover .submenu1{
        display:block; 
   }
-  .submenu1 :hover .submenu2{
+  .submenu1  :hover .submenu2{
        display: block; 
   }
   .show-btn,
