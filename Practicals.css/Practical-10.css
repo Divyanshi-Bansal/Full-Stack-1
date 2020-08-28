@@ -428,9 +428,8 @@
     right: -250%;
     width: 55%;
     height: 100%;
-    background-color: black;
+    background-color: gray;
     text-align: center;
-    color: white;
     line-height: normal;
     transition: 1s;
     margin-right: 20px;
@@ -445,7 +444,7 @@
   .menu li a {
       display: block;
       text-decoration: none;
-      color: white;
+      color: black;
       font-size: 35px;
       padding-left: 80px;
       margin-top: 15px;
@@ -550,9 +549,8 @@
         right: -250%;
         width: 45%;
         height: 90%;
-        background-color: black;
+        background-color: gray;
         text-align: center;
-        color: white;
         line-height: normal;
         transition: 1s;
       }
@@ -567,6 +565,7 @@
     text-decoration: none;
     padding: 3px 10px ;
     font-size: 20px;
+    color: black;
     font-weight: bold;
 }
   .banner h2{
