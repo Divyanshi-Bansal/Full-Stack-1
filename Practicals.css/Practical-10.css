@@ -66,11 +66,13 @@
   }
   .show-btn,
   .hide-btn{
+    position: absolute;
     font-size: 30px;
     color: white;
     padding-right: 20px;
     display: none;
     top: 25px;
+    right: 0;
   }
   .show-btn{
     float: right;
@@ -79,6 +81,12 @@
     position: absolute;
     visibility: hidden;
     z-index: -10;
+  }
+  #chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -10;
+
   }
   .sidebar{
       width: 20%;
@@ -132,12 +140,17 @@
 #chk:checked ~ .social-hide-btn{
     opacity: 1;
 }
+#chk:checked ~ .banner{
+  width:80%;
+  float:right;
+}
 .banner{
     width: 100%;
     margin-top: 40px;
     height: 100vh;
     margin-bottom: 30px;
     display: flex;
+    transition: 1s;
  }
  .banner img{
   height: 100vh;
@@ -537,9 +550,9 @@
         right: -250%;
         width: 45%;
         height: 90%;
-        background-color: darkgray;
+        background-color: black;
         text-align: center;
-        color: black;
+        color: white;
         line-height: normal;
         transition: 1s;
       }
