@@ -87,6 +87,13 @@
     cursor: pointer;
     color:white;
   }
+  .show-btn{
+      font-size: 25px;
+      color: white;
+      position: fixed;
+      top: 20px;
+      left: 50px;
+  }
 
 .banner{
     width: 100%;
