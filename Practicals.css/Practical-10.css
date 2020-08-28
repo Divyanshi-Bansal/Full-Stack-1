@@ -70,6 +70,13 @@
   .sidebar ul li{
       border-bottom: 2px solid rgb(219, 192, 182 , .1);
   }
+  .sidebar ul li a{
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      padding: 15px 25px;
+  }
 
 .banner{
     width: 100%;
