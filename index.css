@@ -13,8 +13,8 @@ body{
 .heading-h1{
     display: block;
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif    ;
+    font-weight: bolder;
 }
 
 h2{
