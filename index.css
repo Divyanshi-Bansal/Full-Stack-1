@@ -1,6 +1,11 @@
 body{
     background-color:palegoldenrod;
 }
+.header{
+    width: 100% auto;
+    height: 60px;
+    margin: 0;
+}
 
 h1{
     color: rgb(53, 104, 64);
