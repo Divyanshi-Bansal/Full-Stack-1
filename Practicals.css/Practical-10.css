@@ -161,6 +161,7 @@
     margin-bottom: 30px;
     display: flex;
     transition: 1s;
+    transition: width 2s height 2s transform 2s 1s;
  }
  .banner img{
   height: 100vh;
@@ -184,6 +185,7 @@
    width: 100%;
    margin-top: 30px;
    margin-bottom: 40px;
+   transition: width 2s height 2s transform 2s 1s;
  }
  .section-1-member img{
   border-radius: 50%;
@@ -202,6 +204,7 @@
   justify-content: center;
   align-items: center;
   clear: both;
+  transition: width 2s height 2s transform 2s 1s;
 }
 .section-2{
   display: flex;
@@ -210,6 +213,7 @@
   width: 98vw;
   margin-top: 35px;
   margin-bottom: 10px;
+  transition: width 2s height 2s transform 2s 1s;
 }
 .left{
   display: flex;
@@ -256,6 +260,7 @@
   width: 98vw;
   margin-bottom: 30px;
   overflow: hidden;
+  transition: width 2s height 2s transform 2s 1s;
 }
 .tech-box{
     display: block;
@@ -321,6 +326,7 @@
   margin-bottom: 0px;
   margin-top: 30px;
   bottom: 0;
+  transition: width 2s height 2s transform 2s 1s;
 }
 .section-4 p{
   text-align: center;
