@@ -149,10 +149,11 @@
 #chk:checked ~ .social-hide-btn{
     opacity: 1;
 }
-#chk:checked ~ .banner{
+#chk:checked ~ .banner {
   width:80%;
   float:right;
 }
+
 .banner{
     width: 100%;
     margin-top: 40px;
