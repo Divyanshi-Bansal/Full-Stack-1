@@ -1,11 +1,12 @@
 body{
-    background-color:palegoldenrod;
+    background-color:lightsteelblue;
 }
 .header{
     width: 100% ;
     height: 20%;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 h1{
