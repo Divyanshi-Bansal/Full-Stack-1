@@ -28,21 +28,34 @@ h2{
 .about p {
     font-size: 19px;
 }
-li{
-    font-size: 18px;
+table{
+    border-collapse: collapse;
+    width: 80%;
+    box-sizing: border-box;
 }
-li a{
+table,tr{
+    border: 1px solid;
+    padding: 20px;
+}
+td{
+    padding: 15px;
+    border-bottom: 1px solid rgb(199, 199, 199);
     font-size: 17px;
-    font-weight: bold;
-    font-style: italic;
-    margin: 7px;
-    background-color: beige;
-    border-radius: 20%;
 }
-li a:hover{
-    color: white;
+th{
+    padding: 20px;
+    border-bottom: 3px solid rgb(199, 199, 199);
     font-size: 20px;
+}
+caption{
+    color: darkslategray;
+    font-size: 23px;
     font-weight: bold;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+td a:hover{
     text-decoration: none;
-    background-color: black;
+    color: blue;
+    font-weight: bold;
 }
