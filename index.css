@@ -25,3 +25,24 @@ body{
 h2{
     color: red;
 }
+.about p {
+    font-size: 19px;
+}
+li{
+    font-size: 18px;
+}
+li a{
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 7px;
+    background-color: beige;
+    border-radius: 20%;
+}
+li a:hover{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: black;
+}
