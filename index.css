@@ -1,5 +1,5 @@
 body{
-    background-color:lightgrey;
+    background-color:rgb(255, 244, 244);
     margin-top: 0;
 }
 .header img{
@@ -32,24 +32,26 @@ table{
     border-collapse: collapse;
     width: 80%;
     box-sizing: border-box;
+    background-color: rgb(245, 229, 229);
 }
 table,tr{
     border: 1px solid;
     padding: 20px;
 }
 td{
-    padding: 15px;
-    border-bottom: 1px solid rgb(199, 199, 199);
-    font-size: 17px;
+    padding: 13px;
+    border-bottom: 1px solid rgb(172, 164, 164);
+    font-size: 19px;
 }
 th{
     padding: 20px;
-    border-bottom: 3px solid rgb(199, 199, 199);
-    font-size: 20px;
+    border-bottom: 3px solid rgb(172, 164, 164);
+    background-color: rgb(190, 143, 115);
+    font-size: 24px;
 }
 caption{
     color: darkslategray;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: bold;
     margin: 20px;
     margin-bottom: 30px;
@@ -58,4 +60,10 @@ td a:hover{
     text-decoration: none;
     color: blue;
     font-weight: bold;
+    background-color: ivory;
+    border-radius: 20%;
+    margin: 2px;
+}
+tr:hover{
+    background-color: rgb(236, 212, 198);
 }
