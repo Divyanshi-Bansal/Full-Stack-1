@@ -645,4 +645,19 @@
     color: #f1f1f1; /* Grey text */
     position: absolute;
   }
+  .banner{
+    width: 100%;
+    margin-top: 30px;
+    height: 50vh;
+    margin-bottom: 20px;
+    display: flex;
+ }
+  .banner img{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+  }
 }
