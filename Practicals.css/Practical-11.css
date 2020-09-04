@@ -37,3 +37,9 @@ td a:hover{
 tr:hover{
     background-color: rgb(221, 214, 214);
 }
+td i {
+    margin: 5px;
+}
+td i:hover{
+    color: blue;
+}
