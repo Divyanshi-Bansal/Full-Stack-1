@@ -102,7 +102,7 @@
       height: 80%;
       position: fixed;
       top: 80px;
-      background-color: #343b48;
+      background: rgba(0, 0, 0, 0.5);
       left: -100%;
       transition: 0.7s;
   }
@@ -125,7 +125,7 @@
   .sidebar ul li a:hover{
     border-left: 6px solid whitesmoke;
     transition: 0.8s;
-    background: rgba(116, 106, 106, 0.7);
+    background: rgba(0, 0, 0, 0.5);
     cursor: pointer;
     color:white;
   }
@@ -683,7 +683,7 @@
     height: 80%;
     position: fixed;
     top: 80px;
-    background-color: #343b48;
+    background: rgba(0, 0, 0, 0.5);
     left: -100%;
     transition: 0.7s;
 }
