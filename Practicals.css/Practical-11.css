@@ -28,3 +28,9 @@ caption{
     margin: 20px;
     margin-bottom: 30px;
 }
+.link:hover{
+    text-decoration: none;
+    color: blue;
+    background-color: white;
+    font-weight: bold;
+}
