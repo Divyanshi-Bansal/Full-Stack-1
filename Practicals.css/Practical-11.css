@@ -16,6 +16,7 @@ td{
 }
 th{
     padding: 20px;
+    border-bottom: 3px solid rgb(199, 199, 199);
 }
 caption{
     color: blue;
