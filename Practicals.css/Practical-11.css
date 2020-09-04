@@ -33,3 +33,6 @@ td a:hover{
     color: blue;
     font-weight: bold;
 }
+tr:hover{
+    background-color: rgb(221, 214, 214);
+}
