@@ -20,14 +20,14 @@ body{
     border-collapse: collapse;
 }
 .basic{
-    background-color: seashell;
+    background-color: rgb(248, 233, 223);
 }
 .plus{
-    background-color: lightsteelblue;
+    background-color: rgb(250, 237, 232);
 }
 .deluxe{
-    background-color: seashell;
+    background-color: rgb(247, 230, 215);
 }
 .pro{
-    background-color: lightsteelblue;
+    background-color: rgb(244, 247, 250);
 }
