@@ -51,14 +51,17 @@ tbody tr:nth-child(odd){
 }
 tfoot tr{
     line-height: 70px;
-    background-color: lightsteelblue;
-    border-radius: 10px;
+    background-color: rgb(206, 200, 175) ;
 }
 tfoot tr a{
     text-decoration: none;
     color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: lightsteelblue;
 }
 tfoot tr a:hover{
     color: black;
     transition: 1s;
+    text-decoration: underline; 
 }
