@@ -46,3 +46,10 @@ th{
 i{
     margin-right: 10px;
 }
+tbody tr:nth-child(odd){
+    background-color: snow;
+}
+tfoot tr{
+    line-height: 70px;
+    
+}
