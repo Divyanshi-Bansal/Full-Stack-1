@@ -9,14 +9,17 @@ body{
     background-color: lightgrey;
 }
 .wrapper{
-    width: 600px;
+    width: 80%;
     background-color: #fff;
     padding: 10px;
     margin: 20px auto ;
     border: 1px solid ;
 }
 .custom-table{
+    width: 100%;
     border-collapse: collapse;
+    align-content: center;
+    margin: 0 auto ;
 }
 .basic{
     background-color: rgb(248, 233, 223);
