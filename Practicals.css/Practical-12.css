@@ -16,7 +16,6 @@ body{
     border: 1px solid ;
 }
 .custom-table{
-    width: 100%;
     border-collapse: collapse;
 }
 .basic{
@@ -40,11 +39,12 @@ td , th{
 }
 th{
     height: 70px;
-    color: black;
+    color: darkblue;
     font-size: 35px;
 }
-i{
+thead i{
     margin-right: 10px;
+    color: rgba(0, 0, 255, 0.24);
 }
 tbody tr:nth-child(odd){
     background-color: snow;
@@ -70,9 +70,8 @@ caption{
     font: outline;
     color: rgb(83, 83, 83);
     margin-bottom: 17px;
-    margin-top: 15px;
 }
 tbody tr:first-child td{
     color: green;
-    font-size: 27px;
+    font-size: 30px;
 }
