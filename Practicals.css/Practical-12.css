@@ -54,10 +54,10 @@ tfoot tr{
 }
 tfoot tr a{
     text-decoration: none;
-    color: white;
+    color: rgb(75, 70, 70);
     padding: 15px 25px;
     border-radius: 10px;
-    background-color: lightsteelblue;
+    background-color: rgb(247, 194, 194);
 }
 tfoot tr a:hover{
     color: black;
