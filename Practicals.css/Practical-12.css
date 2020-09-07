@@ -17,9 +17,9 @@ body{
 }
 .custom-table{
     width: 100%;
-    border-collapse: collapse;
-    
+    align-self: center;
     margin: 0 auto ;
+    border-collapse: collapse;
 }
 .basic{
     background-color: rgb(248, 233, 223);
