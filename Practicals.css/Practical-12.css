@@ -66,6 +66,7 @@ tfoot tr a:hover{
     background-color: lightgrey;
 }
 caption{
-    font-size: 30px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(83, 83, 83);
 }
