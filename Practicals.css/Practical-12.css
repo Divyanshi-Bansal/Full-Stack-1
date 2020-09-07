@@ -57,3 +57,7 @@ tfoot tr a{
     text-decoration: none;
     color: white;
 }
+tfoot tr a:hover{
+    color: black;
+    transition: 1s;
+}
