@@ -72,3 +72,7 @@ caption{
     margin-bottom: 17px;
     margin-top: 15px;
 }
+tbody tr:first-child td{
+    color: green;
+    font-size: 27px;
+}
