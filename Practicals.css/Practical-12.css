@@ -38,3 +38,7 @@ td , th{
     border-left: 2px solid white;
     font-size: 24px;
 }
+th{
+    height: 70px;
+    color: thistle;
+}
