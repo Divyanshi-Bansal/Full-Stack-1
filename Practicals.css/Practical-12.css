@@ -41,4 +41,5 @@ td , th{
 th{
     height: 70px;
     color: black;
+    width: 200px;
 }
