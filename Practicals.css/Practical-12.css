@@ -1,24 +1,17 @@
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
-    min-width: 100%;
     background-color: lightgrey;
 }
-.wrapper{
-    width: 45%;
+
+table{
+    width: 80%;
+    padding: 20px; 
     background-color: #fff;
-    padding: 10px;
-    margin: 20px auto ;
-    border: 1px solid ;
-}
-.custom-table{
-    width: 100%;
-    align-self: center;
-    margin: 0 auto ;
+    border: 2px solid ;
+    border-radius: 12px;
     border-collapse: collapse;
 }
 .basic{
@@ -35,6 +28,7 @@ body{
 }
 td , th{
     padding: 10px;
+    width: 20%;
     text-align: center;
     border-right: 2px solid white;
     border-left: 2px solid white;
@@ -47,6 +41,7 @@ th{
 }
 thead i{
     margin-right: 10px;
+    text-align: center;
     color: rgba(0, 0, 255, 0.24);
 }
 tbody tr:nth-child(odd){
@@ -58,13 +53,14 @@ tfoot tr{
 tfoot tr a{
     text-decoration: none;
     color: midnightblue;
-    padding: 15px 25px;
+    padding: 15px;
+    vertical-align: middle;
     border-radius: 10px;
     background-color: rgb(247, 194, 194);
 }
 tfoot tr a:hover{
     color: black;
-    transition: 2s;
+    transition: 1.4s;
     text-decoration: underline; 
     background-color: lightgrey;
 }
