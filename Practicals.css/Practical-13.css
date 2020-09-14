@@ -143,3 +143,6 @@ i:hover,span:hover{
     background-color:yellow;
     transition: all .3s;
 }
+.sec-4 p:hover::after{
+    width: 100%;
+}
