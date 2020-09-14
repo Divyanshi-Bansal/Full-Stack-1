@@ -112,3 +112,12 @@ i:hover,span:hover{
 .sec-3 ul li:nth-child(1):hover{
     background-color: #0077B5;
 }
+.sec-3 ul li:nth-child(2):hover{
+    background-color: #3b5999;
+}
+.sec-3 ul li:nth-child(3):hover{
+    background-color: #55acee;
+}
+.sec-3 ul li:nth-child(4):hover{
+    background-color: #131418;
+}
