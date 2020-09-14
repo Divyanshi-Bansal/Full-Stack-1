@@ -15,7 +15,7 @@
 }
 footer{
     width: 100%;
-    background-color: rgb(70, 69, 69);
+    background-color: rgb(148, 87, 87);
 }
 .sec-1{
     display: flex;
@@ -27,7 +27,7 @@ footer{
 .about{
     width: 40%;
 }
-.about h2{
+.sec-1 h2{
     font-size: 27px;
     color: whitesmoke;
 }
@@ -35,4 +35,15 @@ footer{
     text-align: justify;
     color: rgb(157, 157, 235);
     margin-top: 8px;
+}
+.sec-1 ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:rgb(157, 157, 235);
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
 }
