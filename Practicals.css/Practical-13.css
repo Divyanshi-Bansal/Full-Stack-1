@@ -28,8 +28,10 @@ footer{
 }
 .about h2{
     font-size: 27px;
+    color: whitesmoke;
 }
 .about p {
     text-align: justify;
-    color: lemonchiffon;
+    color: rgb(211, 211, 216);
+    margin-top: 8px;
 }
