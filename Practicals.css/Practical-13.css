@@ -66,11 +66,12 @@ i:hover,span:hover{
 .sec-2{
     display: flex;
     justify-content: center;
-    padding: 25px;
+    padding: 30px;
 }
-.sec-2 h2{
+.sec-2 h1{
     color: whitesmoke;
-    padding-top: 8px;
+    padding-top: 7px;
+    font-size: 35px;
 }
 .sec-2 a{
     display: inline-block;
@@ -79,5 +80,5 @@ i:hover,span:hover{
     background-color: red;
     margin-left: 11px;
     border-radius: 9px;
-    font-size: 20px;
+    font-size: 24px;
 }
