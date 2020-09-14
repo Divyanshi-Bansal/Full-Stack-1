@@ -21,7 +21,6 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
     margin: 13px;
     padding: 15px 15px;
 }
@@ -146,4 +145,7 @@ i:hover,span:hover{
 }
 .sec-4 p:hover::after{
     width: 100%;
+}
+hr{
+    opacity: .2;
 }
