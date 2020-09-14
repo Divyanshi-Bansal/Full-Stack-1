@@ -82,3 +82,7 @@ i:hover,span:hover{
     border-radius: 9px;
     font-size: 24px;
 }
+.sec-2 a:hover{
+    color: yellow;
+    background-color:black ;
+}
