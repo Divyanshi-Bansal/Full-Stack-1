@@ -21,7 +21,8 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px;
+    padding-top: 15px;
+    margin: 13px;
 }
 .about{
     width: 40%;
@@ -32,6 +33,6 @@ footer{
 }
 .about p {
     text-align: justify;
-    color: rgb(211, 211, 216);
+    color: rgb(157, 157, 235);
     margin-top: 8px;
 }
