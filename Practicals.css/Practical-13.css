@@ -70,3 +70,11 @@ i:hover,span:hover{
 .sec-2 h2{
     color: whitesmoke;
 }
+.sec-2 a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background-color: red;
+    margin-left: 9px;
+    border-radius: 9px;
+}
