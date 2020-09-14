@@ -173,6 +173,7 @@ hr{
     }
     .about{
         width: 100%;
+        margin-bottom: 20px;
     }
     .sec-1 h2{
         font-size: 27px;
