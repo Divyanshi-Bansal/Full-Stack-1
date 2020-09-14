@@ -21,11 +21,15 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px;
 }
 .about{
     width: 40%;
 }
 .about h2{
     font-size: 27px;
+}
+.about p {
+    text-align: justify;
+    color: lemonchiffon;
 }
