@@ -54,10 +54,10 @@ span{
 i{
     color: rgb(157, 157, 235);
     font-size: 24px;
+    padding: 5px;
 }
-i:hover{
+i:hover,span:hover{
     color: white;
-    text-decoration: underline;
 }
 .sec-1 ul li {
     padding: 4px;
