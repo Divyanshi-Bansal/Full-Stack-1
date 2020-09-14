@@ -150,19 +150,7 @@ hr{
     opacity: .2;
 }
 @media(max-width:1000px){
-    .main-content{
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 40px;
-        color: grey;
-    }
-    footer{
-        width: 100%;
-        background-color: rgb(80, 76, 76);
-    }
+    
     .sec-1{
         display: flex;
         flex-direction: row;
@@ -175,128 +163,7 @@ hr{
         width: 100%;
         margin-bottom: 20px;
     }
-    .sec-1 h2{
-        font-size: 27px;
-        color: whitesmoke;
-    }
-    .about p {
-        text-align: justify;
-        color: rgb(157, 157, 235);
-        margin-top: 8px;
-        line-height: 24px;
-    }
-    .sec-1 ul{
-        list-style: none;
-        margin: 5px;
-    }
-    a{
-        text-decoration: none;
-        color:rgb(157, 157, 235);
-    }
-    a:hover{
-        color: white;
-        text-decoration: underline;
-    }
-    span{
-        color: rgb(157, 157, 235);
-    }
-    i{
-        color: rgb(157, 157, 235);
-        font-size: 24px;
-        padding: 5px;
-    }
-    i:hover,span:hover{
-        color: white;
-    }
-    .sec-1 ul li {
-        padding: 4px;
-    }
-    .sec-2{
-        display: flex;
-        justify-content: center;
-        padding: 30px;
-    }
-    .sec-2 h1{
-        color: whitesmoke;
-        padding-top: 7px;
-        font-size: 35px;
-    }
-    .sec-2 a{
-        display: inline-block;
-        padding: 10px 15px;
-        color: white;
-        background-color: red;
-        margin-left: 11px;
-        border-radius: 9px;
-        font-size: 24px;
-    }
-    .sec-2 a:hover{
-        color: yellow;
-        background-color:black ;
-    }
-    .sec-3{
-        display: flex;
-        justify-content: center;
-    }
-    .sec-3 ul{
-        list-style: none;
-        margin: 20px;
-    }
-    .sec-3 ul li{
-        display: inline-block;
-        width: 60px;
-        height: 60px;
-        padding: 15px;
-        border-radius: 50%;
-        margin-right: 20px;
-        background-color:rgb(110, 108, 108);
-    }
-    .sec-3 ul li i{
-        color: white;
-        font-size: 30px;
-        line-height: 20px;
-        text-align: center;
-    }
-    .sec-3 ul li:nth-child(1):hover{
-        background-color: #0077B5;
-    }
-    .sec-3 ul li:nth-child(2):hover{
-        background-color: #3b5999;
-    }
-    .sec-3 ul li:nth-child(3):hover{
-        background-color: #55acee;
-    }
-    .sec-3 ul li:nth-child(4):hover{
-        background-color: #131418;
-    }
-    .sec-4{
-        display: flex;
-        justify-content: center;
-        background-color: black;
-        padding: 30px;
-    }
-    .sec-4 p{
-        font-size: 20px;
-        color: #4c75a3;
-        position: relative;
-    }
-    .sec-4 p::after{
-        content: '';
-        display: block;
-        width: 0;
-        height: 2px;
-        position: absolute;
-        right: 0;
-        bottom: -10px;
-        background-color: wheat;
-        transition: all .3s;
-    }
-    .sec-4 p:hover::after{
-        width: 100%;
-    }
-    hr{
-        opacity: .2;
-    }
+    
 }
 @media (max-width:605px){
     .sec-1{
