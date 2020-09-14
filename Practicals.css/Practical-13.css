@@ -63,3 +63,10 @@ i:hover,span:hover{
 .sec-1 ul li {
     padding: 4px;
 }
+.sec-2{
+    display: flex;
+    justify-content: center;
+}
+.sec-2 h2{
+    color: whitesmoke;
+}
