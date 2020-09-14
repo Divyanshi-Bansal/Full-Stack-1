@@ -23,6 +23,7 @@ footer{
     justify-content: space-between;
     padding-top: 15px;
     margin: 13px;
+    padding: 30px 15px;
 }
 .about{
     width: 40%;
@@ -140,7 +141,7 @@ i:hover,span:hover{
     position: absolute;
     right: 0;
     bottom: -10px;
-    background-color:yellow;
+    background-color: wheat;
     transition: all .3s;
 }
 .sec-4 p:hover::after{
