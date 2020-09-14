@@ -35,6 +35,7 @@ footer{
     text-align: justify;
     color: rgb(157, 157, 235);
     margin-top: 8px;
+    line-height: 24px;
 }
 .sec-1 ul{
     list-style: none;
