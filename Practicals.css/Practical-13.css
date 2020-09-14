@@ -15,7 +15,7 @@
 }
 footer{
     width: 100%;
-    background-color: rgb(148, 87, 87);
+    background-color: rgb(80, 76, 76);
 }
 .sec-1{
     display: flex;
@@ -46,4 +46,14 @@ a{
 a:hover{
     color: white;
     text-decoration: underline;
+}
+span{
+    color: rgb(157, 157, 235);
+}
+i{
+    color: rgb(157, 157, 235);
+    font-size: 24px;
+}
+.sec-1 ul li {
+    padding: 6px;
 }
