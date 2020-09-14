@@ -70,6 +70,7 @@ i:hover,span:hover{
 }
 .sec-2 h2{
     color: whitesmoke;
+    padding-top: 8px;
 }
 .sec-2 a{
     display: inline-block;
