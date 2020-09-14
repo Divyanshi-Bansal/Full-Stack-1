@@ -109,3 +109,6 @@ i:hover,span:hover{
     line-height: 20px;
     text-align: center;
 }
+.sec-3 ul li:nth-child(1):hover{
+    background-color: #0077B5;
+}
