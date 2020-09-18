@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 36px;
+}
 .container{
     display: flex;
 
