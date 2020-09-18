@@ -177,3 +177,8 @@ li{
     font-size: 22px;
     padding: 16px;
 }
+.template-3 .icons li a{
+    box-shadow: 2px 2px 2px 2px #06beb6;
+    border-radius: 15px;
+    
+}
