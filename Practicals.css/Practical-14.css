@@ -135,5 +135,11 @@ li{
     border-radius: 5px;
 }
 .template-2 .icons{
-    background-color: rgb(100, 177, 250);
+    background-color: #f7bb97;
+}
+.template-3{
+    width: 27%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
 }
