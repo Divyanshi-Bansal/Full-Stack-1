@@ -94,3 +94,6 @@ li{
     margin: 15px;
     border-radius: 5px;
 }
+.button label a{
+    text-decoration: none;
+}
