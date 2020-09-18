@@ -80,3 +80,8 @@ li{
     text-align: right;
     padding-top: 8px;
 }
+.template-1 .button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
