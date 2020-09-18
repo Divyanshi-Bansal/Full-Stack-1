@@ -8,6 +8,7 @@ h1{
     font-size: 45px;
     font-weight: bold;
     margin: 36px;
+    color: #7d161a;
 }
 .container{
     display: flex;
