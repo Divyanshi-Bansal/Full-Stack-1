@@ -53,6 +53,9 @@ h2{
     font-size: 22px;
     padding: 16px;
 }
+.icons i:hover{
+    color: #19547b;
+}
 li{
     list-style: none;
 }
@@ -166,6 +169,9 @@ li{
     color: #004e92;
     font-size: 22px;
     padding: 12px;
+}
+.template-3 .icons i:hover{
+    color: #4ca1af;
 }
 .template-3 .icons li {
     box-shadow: 2px 2px 2px 2px #06beb6;
