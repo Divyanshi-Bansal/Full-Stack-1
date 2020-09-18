@@ -132,7 +132,7 @@ li{
     border-radius: 5px;
 }
 .template-2 .icons{
-    background-color:blue;
+    background: linear-gradient(#dd5e89 , #f7bb97);
 }
 .template-3 .sec-1{
     display: flex;
