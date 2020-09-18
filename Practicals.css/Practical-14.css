@@ -85,3 +85,12 @@ li{
     justify-content: space-around;
     align-items: center;
 }
+.template-1 .button input{
+    background: coral;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    margin: 15px;
+    border-radius: 3px;
+}
