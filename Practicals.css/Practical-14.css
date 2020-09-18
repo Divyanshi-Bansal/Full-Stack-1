@@ -81,7 +81,7 @@ li{
     border-bottom: 1px blue;
     outline: none;
     border-bottom-style: solid;
-    
+    margin-top: 5px;
 }
 .template-1 .sec-2 .forgot{
     text-align: right;
