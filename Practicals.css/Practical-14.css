@@ -30,9 +30,9 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background: linear-gradient(90deg, rgb(255, 25, 25) 0%, rgba(255, 168, 37, 0.88) 0%, rgb(243, 240, 83) 97%);
 }
-.sec-1 .icons{
+.icons{
     display: flex;
     flex-direction: row;
     justify-content: center;
