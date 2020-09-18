@@ -203,5 +203,20 @@ li{
 }
 
 @media (max-width:921px){
-
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+    .template-1,
+    .template-2,
+    .template-3{
+        width: 68%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px black;
+        margin-bottom: 60px;
+    }
 }
