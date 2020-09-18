@@ -143,6 +143,13 @@ li{
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black;
 }
+.template-3 .sec-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
 .template-3 h2{
     color: rgb(0, 132, 255);
 }
