@@ -135,7 +135,7 @@ li{
     border-radius: 5px;
 }
 .template-2 .icons{
-    background: linear-gradient(90deg,#dd5e89 , #f7bb97);
+    background: linear-gradient(#dd5e89 , #f7bb97);
 }
 .template-3{
     width: 27%;
@@ -171,4 +171,9 @@ li{
     border-radius: 5px;
     width: 80%;
     font-size: 20px;
+}
+.template-3 .icons i{
+    color: #004e92;
+    font-size: 22px;
+    padding: 16px;
 }
