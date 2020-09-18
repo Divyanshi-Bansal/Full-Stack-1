@@ -180,5 +180,12 @@ li{
     margin-top: 0px;
     padding-right: 15px;
     padding-left: 15px;
-    
+}
+
+@media (max-width:1090px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 }
