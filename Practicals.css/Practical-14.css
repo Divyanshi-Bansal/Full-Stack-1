@@ -80,12 +80,12 @@ li{
     text-align: right;
     padding-top: 8px;
 }
-.button{
+.template-1 .button{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.button input{
+.template-1 .button input{
     background: coral;
     color: white;
     padding: 15px;
