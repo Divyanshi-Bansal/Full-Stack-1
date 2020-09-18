@@ -70,11 +70,9 @@ li{
     border-bottom-style: groove;
     width: 82%;
 }
-.sec-2 .input input:focus{
+.sec-2 .input input:focus {
     border-bottom: 1px blue;
     outline: none;
     border-bottom-style: solid;
-    label &{
-        color: red; 
-      }
+    
 }
