@@ -86,7 +86,7 @@ li{
     align-items: center;
 }
 .template-1 .button input{
-    background: coral;
+    background: rgb(250, 105, 20);
     color: white;
     padding: 15px;
     font-size: 20px;
@@ -124,4 +124,13 @@ li{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.template-2 .button input{
+    background: coral;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    margin: 15px;
+    border-radius: 5px;
 }
