@@ -183,9 +183,21 @@ li{
 }
 
 @media (max-width:1090px){
-    .container{
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
+    .template-1,
+    .template-2,
+    .template-3{
+        width: 30%;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px black;
+    }
+    .template-3 .icons li {
+        box-shadow: 2px 2px 2px 2px #06beb6;
+        border-radius: 17px;
+        margin: 8px;
+        margin-top: 0px;
+        padding-right: 12px;
+        padding-left: 12px;
     }
 }
+
