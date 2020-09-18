@@ -53,6 +53,18 @@ h2{
 li{
     list-style: none;
 }
+.sec-2{
+    padding: 32px;
+    ;
+}
 .sec-2 .input{
     color: grey;
+
+}
+.sec-2 .input input{
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
 }
