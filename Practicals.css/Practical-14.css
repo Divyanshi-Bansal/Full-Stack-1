@@ -153,3 +153,7 @@ li{
 .template-3 h2{
     color: rgb(0, 132, 255);
 }
+.template-3 .forgot{
+    text-align: right;
+    padding-top: 8px;
+}
