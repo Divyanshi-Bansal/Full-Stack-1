@@ -163,6 +163,10 @@ li{
     align-items: center;
 }
 .template-3 .button input{
-    outline: none;
+    border: none;
     background: linear-gradient(90deg, #36d1dc , #5b86e5);
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
 }
