@@ -71,6 +71,7 @@ li{
     border-left-style: hidden;
     border-bottom-style: groove;
     width: 90%;
+    font-size: 19px;
 }
 .sec-2 .input input:focus {
     border-bottom: 1px blue;
