@@ -20,7 +20,9 @@ h1{
     padding: 50px;
 }
 
-.template-1{
+.template-1,
+.template-2,
+.template-3{
     width: 27%;
     background-color: white;
     border-radius: 10px;
@@ -100,12 +102,6 @@ li{
 .button label a:hover{
     text-decoration: underline;
 }
-.template-2{
-    width: 27%;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px black;
-}
 .template-2 h2{
     color: rgb(240, 46, 78);
 }
@@ -135,13 +131,7 @@ li{
     border-radius: 5px;
 }
 .template-2 .icons{
-    background: linear-gradient(#dd5e89 , #f7bb97);
-}
-.template-3{
-    width: 27%;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px black;
+    background-color:blue;
 }
 .template-3 .sec-1{
     display: flex;
