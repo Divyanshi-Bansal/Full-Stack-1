@@ -3,14 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: snow;
+}
 h1{
     text-align: center;
     font-size: 45px;
     font-weight: bold;
     margin: 36px;
     color: #7d161a;
+    margin-bottom: 86px;
 }
 .container{
     display: flex;
+    justify-content: space-evenly;
+}
+
+.template-1{
+    width: 30%;
 
 }
