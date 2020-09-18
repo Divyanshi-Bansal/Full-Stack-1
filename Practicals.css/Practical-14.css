@@ -97,3 +97,6 @@ li{
 .button label a{
     text-decoration: none;
 }
+.button label a:hover{
+    text-decoration: underline;
+}
