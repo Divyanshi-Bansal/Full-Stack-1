@@ -56,21 +56,25 @@ li{
 }
 .sec-2{
     padding: 32px;
-    ;
+    
 }
 .sec-2 .input{
     color: grey;
 
 }
 .sec-2 .input input{
-    outline: none;
+    
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: groove;
     width: 82%;
 }
-.sec-2 .input:active{
-  padding-top: 9px;
-  border-bottom: 2px solid #1c87c9;
+.sec-2 .input input:focus{
+    border-bottom: 1px blue;
+    outline: none;
+    border-bottom-style: solid;
+    label &{
+        color: red; 
+      }
 }
