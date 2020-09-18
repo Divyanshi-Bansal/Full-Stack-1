@@ -68,7 +68,7 @@ li{
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: groove;
-    width: 82%;
+    width: 90%;
 }
 .sec-2 .input input:focus {
     border-bottom: 1px blue;
@@ -99,4 +99,10 @@ li{
 }
 .button label a:hover{
     text-decoration: underline;
+}
+.template-2{
+    width: 27%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
 }
