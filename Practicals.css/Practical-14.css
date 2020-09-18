@@ -106,3 +106,6 @@ li{
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black;
 }
+.template-2 h2{
+    color: rgb(240, 46, 78);
+}
