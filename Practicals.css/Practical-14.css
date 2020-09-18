@@ -16,11 +16,12 @@ h1{
 }
 .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 50px;
 }
 
 .template-1{
-    width: 30%;
+    width: 27%;
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black;
@@ -67,4 +68,9 @@ li{
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: groove;
+    width: 82%;
+}
+.sec-2 .input:active{
+  padding-top: 9px;
+  border-bottom: 2px solid #1c87c9;
 }
