@@ -4,6 +4,8 @@ var counter = document.getElementById('counter');
 
 minus.addEventListener('click',decrease);
 plus.addEventListener('click',increase);
+plus.style.background = 'grey';
+minus.style.background = 'rgb(187, 184, 184)';
 
 var count =0;
 
@@ -14,10 +16,6 @@ function decrease(){
         plus.style.background = 'grey';
         count = count -1;
         counter.innerHTML = count;
-    }
-    if(count == 0){
-        minus.style.background = 'rgb(187, 184, 184)';
-        minus.style.border = 'hidden';
     }
 }
 
@@ -31,6 +29,6 @@ function increase(){
 }
 
 counter.onclick = function(){
-    counter.style.border = 'hidden';
+    counter.style.border = 'none';
 };
  
