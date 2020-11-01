@@ -6,14 +6,18 @@ plus.addEventListener('click',increase);
 
 var count =0;
 function decrease(){
-    plus.removeEventListener('click',increase);
-    minus.style.background = 'darkgrey';
-    document.getElementById('counter').innerHTML = count--;
+    if(count != 0){
+        //plus.removeEventListener('click',increase);
+        minus.style.background = 'darkgrey';
+        count = count -1;
+        document.getElementById('counter').innerHTML = count;
+    }
 }
 
 function increase(){
-    minus.removeEventListener('click',decrease);
+    //minus.removeEventListener('click',decrease);
     plus.style.background = 'darkgrey';
     plus.style.fontWeight = 'bold';
-    document.getElementById('counter').innerHTML = count++;
+    count = count +1;
+    document.getElementById('counter').innerHTML = count;
 }
