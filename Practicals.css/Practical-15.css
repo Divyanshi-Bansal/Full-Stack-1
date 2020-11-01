@@ -1,3 +1,8 @@
+
+body{
+    background-color: rgb(181, 228, 228);
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -13,6 +18,7 @@
     flex-direction: row;
     text-align: center;
     justify-content: center;
+    
 }
 
 button{
@@ -20,5 +26,16 @@ button{
     margin: 10px;
     display: block;
     font-size: 30px;
+    color: cornsilk;
+    background-color:rgb(158, 157, 157) ;
+    border: hidden;
+    width: 60px;
+}
+
+#counter{
+    border: hidden;
+    color: black;
+    font-size: 40px ;
+    background-color:rgb(181, 228, 228) ;
 }
 
