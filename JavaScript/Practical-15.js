@@ -17,6 +17,9 @@ function decrease(){
         count = count -1;
         counter.innerHTML = count;
     }
+    if(count==0){
+        minus.style.background = 'rgb(187, 184, 184)';
+    }
 }
 
 function increase(){
@@ -28,7 +31,4 @@ function increase(){
     counter.innerHTML = count;
 }
 
-counter.onclick = function(){
-    counter.style.border = 'none';
-};
  

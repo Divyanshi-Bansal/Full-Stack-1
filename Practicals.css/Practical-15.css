@@ -28,14 +28,15 @@ button{
     font-size: 30px;
     color: cornsilk;
     background-color:rgb(158, 157, 157) ;
-    border: hidden;
+    border: none;
+    outline: 0;
     width: 60px;
     border-radius: 8px;
     box-shadow: 2px 2px 3px grey ,-2px -2px 7px rgb(252, 245, 245);
 }
 
 #counter{
-    border: hidden;
+    border: none;
     color: black;
     font-size: 40px ;
     background-color:rgb(181, 228, 228) ;
