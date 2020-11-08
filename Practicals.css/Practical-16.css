@@ -83,3 +83,7 @@ form button:hover{
     background-color: rgb(214, 30, 30);
     color: white;
 }
+
+.fa-check,.fa-trash{
+    pointer-events: none;
+}
