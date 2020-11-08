@@ -1,11 +1,13 @@
-var todoInput = document.querySelector("todo-input");
-var todoButton = document.querySelector("todo-button");
-var todoList = document.querySelector("todo-List");
+var todoInput = document.querySelector(".todo-input");
+var todoButton = document.querySelector(".todo-button");
+var todoList = document.querySelector(".todo-List");
 
 
-todoButton.onClick = create;
+todoButton.onclick = create;
 
-function create(){
+function create(e){
+    e.preventDefault(); //to stop reloading  the page after clicking
+
     var newdiv = document.createElement("div");
     newdiv.classList.add('todo');
 
