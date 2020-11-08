@@ -37,6 +37,7 @@ form button{
 form button{
     color: blue;
     background-color: white;
+    padding: 5px;
 }
 form button:hover{
     color: rgb(31, 173, 230);
