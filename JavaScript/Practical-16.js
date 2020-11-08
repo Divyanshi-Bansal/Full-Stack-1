@@ -23,5 +23,5 @@ function create(){
     deletebtn.innerHTML = '<i class="fa fa-trash"></i>';
     newdiv.appendChild(deletebtn);
 
-
+    todoList.appendChild(newdiv);
 }
