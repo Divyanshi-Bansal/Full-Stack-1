@@ -13,7 +13,7 @@ function create(e){
 
     var newLi = document.createElement('li');
     newLi.classList.add('todo-item');
-    newLi.innerHTML = todoInput; //defalut
+    newLi.innerHTML = todoInput.value; //defalut
     newdiv.appendChild(newLi);
 
     var checkbtn = document.createElement('button');
