@@ -38,6 +38,6 @@ function checkDelete(e){
     }
     if(item.classList[0] === 'check-btn'){
         var parent = item.parentNode;
-        parent.remove();
+        parent.classList.toggle('completed');
     }
 }
