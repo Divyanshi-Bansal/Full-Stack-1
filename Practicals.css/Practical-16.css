@@ -12,3 +12,33 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     min-height: 100vh;
 }
+
+h1,form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    margin: 70px;
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+}
+
+form input,
+form button{
+    padding: 10px;
+    border: none;
+    font-size: 25px;
+    outline: none;
+}
+
+form button{
+    color: blue;
+    background-color: white;
+}
+form button:hover{
+    color: skyblue;
+    background-color: rgb(158, 149, 214);
+}
