@@ -52,7 +52,7 @@ form button:hover{
 
 .todo-list{
     list-style: none;
-    width: 25%;
+    width: 20%;
 }
 
 .todo{
@@ -60,4 +60,7 @@ form button:hover{
     background-color: white;
     color: black;
     font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
