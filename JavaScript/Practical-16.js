@@ -31,5 +31,9 @@ function create(e){
 }
 
 function checkDelete(e){
-
+    var item = e.target;
+    if(item.classList[0] === 'delete-btn'){
+        var parent = item.parentNode;
+        parent.remove();
+    }
 }
