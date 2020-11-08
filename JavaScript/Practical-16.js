@@ -30,7 +30,7 @@ function create(e){
     todoInput.value='';
     }
     else{
-        alert("input can't be empty.");
+        alert("Input can't be empty.");
     }
 }
 
