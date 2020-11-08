@@ -27,4 +27,5 @@ function create(e){
     newdiv.appendChild(deletebtn);
 
     todoList.appendChild(newdiv);
+    todoInput.value='';
 }
