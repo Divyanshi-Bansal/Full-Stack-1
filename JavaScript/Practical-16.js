@@ -1,9 +1,9 @@
 var todoInput = document.querySelector(".todo-input");
 var todoButton = document.querySelector(".todo-button");
-var todoList = document.querySelector(".todo-List");
-
+var todoList = document.querySelector(".todo-list");
 
 todoButton.onclick = create;
+
 
 function create(e){
     e.preventDefault(); //to stop reloading  the page after clicking
@@ -13,14 +13,15 @@ function create(e){
 
     var newLi = document.createElement('li');
     newLi.classList.add('todo-item');
+    newLi.innerHTML = "list"; //defalut
     newdiv.appendChild(newLi);
 
     var checkbtn = document.createElement('button');
     checkbtn.classList.add('check-btn');
-    checkbtn.innerHTML = '<i class = "fa fa-check"></i>';
+    checkbtn.innerHTML = '<i class="fa fa-check"></i>';
     newdiv.appendChild(checkbtn);
 
-    var deletebtn = document.createElement('button');
+    var deletebtn = document.createElement("button");
     deletebtn.classList.add('delete-btn');
     deletebtn.innerHTML = '<i class="fa fa-trash"></i>';
     newdiv.appendChild(deletebtn);
