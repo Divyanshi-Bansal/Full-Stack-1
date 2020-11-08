@@ -3,7 +3,7 @@ var todoButton = document.querySelector(".todo-button");
 var todoList = document.querySelector(".todo-list");
 
 todoButton.onclick = create;
-
+todoList.onclick = checkDelete;
 
 function create(e){
     e.preventDefault(); //to stop reloading  the page after clicking
@@ -28,4 +28,8 @@ function create(e){
 
     todoList.appendChild(newdiv);
     todoInput.value='';
+}
+
+function checkDelete(e){
+
 }
