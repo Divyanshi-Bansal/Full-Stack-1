@@ -39,6 +39,6 @@ form button{
     background-color: white;
 }
 form button:hover{
-    color: skyblue;
-    background-color: rgb(158, 149, 214);
+    color: rgb(31, 173, 230);
+    background-color: rgb(188, 229, 240);
 }
