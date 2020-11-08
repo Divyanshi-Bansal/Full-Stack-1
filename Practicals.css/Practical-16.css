@@ -5,5 +5,10 @@
 }
 
 body{
-    background:linear-gradient(grey,gray,black);
+    background:linear-gradient(180deg,grey,gray,black);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
 }
