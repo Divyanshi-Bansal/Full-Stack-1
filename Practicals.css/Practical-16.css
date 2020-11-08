@@ -64,3 +64,22 @@ form button:hover{
     justify-content: space-between;
     align-items: center;
 }
+
+.todo-item{
+    flex:1;
+    margin: 0 9px;
+}
+.check-btn,
+.delete-btn{
+    background-color: rgb(7, 150, 7);
+    color: white;
+    border: none;
+    outline: none;
+    padding :12px;
+    font-size: 16px;
+}
+
+.delete-btn{
+    background-color: rgb(214, 30, 30);
+    color: white;
+}
