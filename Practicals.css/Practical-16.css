@@ -52,4 +52,12 @@ form button:hover{
 
 .todo-list{
     list-style: none;
+    width: 25%;
+}
+
+.todo{
+    margin: 8px;
+    background-color: white;
+    color: black;
+    font-size: 23px;
 }
