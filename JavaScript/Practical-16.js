@@ -7,8 +7,8 @@ todoList.onclick = checkDelete;
 
 function create(e){
     e.preventDefault(); //to stop reloading  the page after clicking
-
-    var newdiv = document.createElement("div");
+    if(todoInput.value){
+        var newdiv = document.createElement("div");
     newdiv.classList.add('todo');
 
     var newLi = document.createElement('li');
@@ -28,6 +28,10 @@ function create(e){
 
     todoList.appendChild(newdiv);
     todoInput.value='';
+    }
+    else{
+        alert("input can't be empty.");
+    }
 }
 
 function checkDelete(e){
