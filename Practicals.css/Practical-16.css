@@ -43,3 +43,13 @@ form button:hover{
     color: rgb(31, 173, 230);
     background-color: rgb(188, 229, 240);
 }
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    list-style: none;
+}
