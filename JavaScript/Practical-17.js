@@ -88,7 +88,7 @@ function setName(e) {
   }
 }
 function getName() {
-  if (localStorage.getItem("text") === null) {
+  if (localStorage.getItem("text") === "" || localStorage.getItem("text") === null) {
     text.innerHTML = "Enter Text";
   } else {
     text.innerHTML = localStorage.getItem("text");
