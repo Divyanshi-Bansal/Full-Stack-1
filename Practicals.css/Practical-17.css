@@ -30,10 +30,11 @@ body{
     font-size: 35px;
     margin-top: 0;
     padding-top: 0;
+    color: rgb(219, 19, 62);
 }
 
 .text{
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -44,9 +45,12 @@ body{
     border: none;
     background-color: unset;
     font-size: 35px;
-    padding: 10px;
     margin: 10px;
-    
+}
+
+.mood{
+    font-size: 280%;
+    font-weight: lighter;
 }
 
 
@@ -56,5 +60,8 @@ body{
 }
 
 .today h2{
+    padding-top: 0;
+    margin-top: 0;
     padding: 8px;
+    font-size: 35px;
 }
