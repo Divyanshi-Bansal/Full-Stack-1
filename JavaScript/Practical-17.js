@@ -89,7 +89,7 @@ function setName(e) {
 }
 function getName() {
   if (localStorage.getItem("text") === null) {
-    text.innerHTML = "[Enter Text]";
+    text.innerHTML = "Enter Text";
   } else {
     text.innerHTML = localStorage.getItem("text");
   }

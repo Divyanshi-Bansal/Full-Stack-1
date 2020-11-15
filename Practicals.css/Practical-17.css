@@ -50,6 +50,8 @@ body{
     font-size: 35px;
     color:yellowgreen;
     outline: hidden;
+    border: none;
+    overflow-x: hidden;
 }
 
 .mood{
