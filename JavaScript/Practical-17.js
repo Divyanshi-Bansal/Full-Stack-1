@@ -67,10 +67,10 @@ function digitalClock(){
     }
 
     setTimeout(digitalClock,500);
+    getName();
 }
 
 
 
 
 digitalClock();
-getName();
