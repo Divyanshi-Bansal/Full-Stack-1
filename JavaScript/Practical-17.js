@@ -29,9 +29,22 @@ function digitalClock(){
         text.style.opacity = '0.7';
     }
 
-    document.body.style.backgroundImage = hour>=4 & hour <=6 ? "URL('../image/earlyMorningimg.jpg')" : hour >=7 & hour <12 ? "URL('../image/morningimg.jpg')" : hour >=12 & hour <= 16 ? "URL('../image/earlyMorningimg.jpg')" : hour >= 17 & hour <= 18 ? "URL('../image/eveningimg.jpg')" : hour >18 & hour <=23 ? "URL('../image/nightImg.jpg')" : "URL('../image/lateNightimg.jpg')" ;
-
-
+    document.body.style.backgroundImage = hour>=4 & hour <=6 ? "URL('../image/earlyMorningimg.jpg')" : hour >=7 & hour <12 ? "URL('../image/morningimg.jpg')" : hour >=12 & hour <= 16 ?"URL('../image/afternooonimg.jpg')" : hour >= 17 & hour <= 18 ? "URL('../image/eveningimg.jpg')" : hour >18 & hour <=23 ? "URL('../image/nightImg.jpg')" : "URL('../image/lateNightimg.jpg')" ;
+    if ( hour >18 & hour <=23 ){
+        document.getElementById('time').style.color = 'skyblue';
+        document.getElementById('ampm').style.color = 'skyblue';
+        document.getElementById('text').style.color = 'white';
+        document.getElementById('today').style.color = 'red';
+    }
+    else if(hour >=7 & hour <12 ){
+        document.getElementById('today').style.color = 'red';
+    }
+    else if(hour == 24 || hour <4){
+        document.getElementById('time').style.color = 'skyblue';
+        document.getElementById('ampm').style.color = 'skyblue';
+        document.getElementById('text').style.color = 'white';
+        document.getElementById('today').style.color = 'white';
+    }
 
     setTimeout(digitalClock,500);
 }
