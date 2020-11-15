@@ -1,6 +1,7 @@
 *{
     padding: 0;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 body{
@@ -48,6 +49,7 @@ body{
     background-color: unset;
     font-size: 35px;
     color:yellowgreen;
+    outline: hidden;
 }
 
 .mood{
