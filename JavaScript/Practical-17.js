@@ -17,7 +17,7 @@ function digitalClock(){
     document.getElementById('today').innerHTML = today;
     var text = document.getElementById('text');
     document.getElementById('mood').innerHTML = mood;
-    getName();
+    
     // text.onclick = (e) => {
     //     e.preventDefault();
     //     text.innerHTML = text;
@@ -73,3 +73,4 @@ function digitalClock(){
 
 
 digitalClock();
+getName();
