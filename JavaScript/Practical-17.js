@@ -20,12 +20,8 @@ function digitalClock(){
 
     text.onclick = (e) => {
         e.preventDefault();
-        if (text == null){
-            text.innerHTML = 'Enter Text';
-        }
-        else{
-            text.innerHTML = text;
-        }
+        text.innerHTML = text;
+        
         text.style.opacity = '0.7';
     }
 
