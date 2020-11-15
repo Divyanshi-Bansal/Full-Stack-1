@@ -65,9 +65,9 @@ function digitalClock(){
         document.getElementById('text').style.color = 'white';
         document.getElementById('today').style.color = 'white';
     }
-
-    setTimeout(digitalClock,500);
     getName();
+    setTimeout(digitalClock,500);
+    
 }
 
 
