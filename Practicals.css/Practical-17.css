@@ -1,6 +1,12 @@
 *{
     padding: 0;
 }
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -21,7 +27,7 @@
 }
 
 .greeting{
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 0;
     padding-top: 0;
 }
@@ -36,10 +42,11 @@
 #text{
     outline:none ;
     border: none;
-    
-    font-size: 20px;
-    padding: 14px;
+    background-color: unset;
+    font-size: 35px;
+    padding: 10px;
     margin: 10px;
+    
 }
 
 
