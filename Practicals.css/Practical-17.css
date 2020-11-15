@@ -43,7 +43,10 @@ body{
 
 #text{
     outline:none ;
-    border: none;
+    border-bottom-color: 2px gold;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
     background-color: unset;
     font-size: 35px;
     margin: 10px;
