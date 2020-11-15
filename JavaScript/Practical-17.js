@@ -10,7 +10,7 @@ function digitalClock(){
 
 
     document.getElementById('time').innerHTML = time;
-    document.getElementById(ampm).innerHTML = ampm;
+    document.getElementById('ampm').innerHTML = ampm;
     document.getElementById('today').innerHTML = today;
 
 
