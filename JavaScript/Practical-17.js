@@ -15,6 +15,10 @@ function digitalClock(){
     document.getElementById('ampm').innerHTML = ampm;
     document.getElementById('greeting').innerHTML = greeting;
     document.getElementById('today').innerHTML = today;
+    var text = document.getElementById('text');
+    text.onclick = () => {
+        text.innerHTML = text;
+    }
 
 
 
