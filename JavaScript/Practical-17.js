@@ -26,27 +26,6 @@ function digitalClock(){
 
     text.addEventListener("keypress",setName);
     text.addEventListener("blur",setName);
-    
-
-    function setName(e){
-        if (e.type == 'keypress'){
-            if(e.keycode == 13){
-                localStorage.setItem("text",e.target.innerHTML);
-                text.blur;
-            }
-        }
-        else{
-            localStorage.setItem("text",e.target.innerHTML);
-        }
-    }
-    function getName(){
-        if (localStorage.getItem('text') === null){
-            text.innerHTML = '[Enter Text]';
-        }
-        else{
-            text.innerHTML = localStorage.getItem('text');
-        }
-    }
 
 
     document.body.style.backgroundImage = hour>=4 & hour <=6 ? "URL('../image/earlyMorningimg.jpg')" : hour >=7 & hour <12 ? "URL('../image/morningimg.jpg')" : hour >=12 & hour <= 16 ?"URL('../image/afternooonimg.jpg')" : hour >= 17 & hour <= 18 ? "URL('../image/eveningimg.jpg')" : hour >18 & hour <=23 ? "URL('../image/nightImg.jpg')" : "URL('../image/lateNightimg.jpg')" ;
@@ -65,7 +44,7 @@ function digitalClock(){
         document.getElementById('text').style.color = 'white';
         document.getElementById('today').style.color = 'white';
     }
-    getName();
+
     setTimeout(digitalClock,500);
     
 }
@@ -74,3 +53,27 @@ function digitalClock(){
 
 
 digitalClock();
+getName();
+    
+
+    function setName(e){
+        if (e.type == 'keypress'){
+            if(e.keycode == 13){
+                localStorage.setItem("text",e.target.innerHTML);
+                text.blur();
+            }
+        }
+        else{
+            localStorage.setItem("text",e.target.innerHTML);
+        }
+    }
+    function getName(){
+        if (localStorage.getItem('text') === null){
+            text.innerHTML = '[Enter Text]';
+        }
+        else{
+            text.innerHTML = localStorage.getItem('text');
+        }
+    }
+
+    
