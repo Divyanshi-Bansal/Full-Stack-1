@@ -12,3 +12,12 @@
 h1{
     padding: 9px;
 }
+
+.today{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.today h2{
+    padding: 8px;
+}
