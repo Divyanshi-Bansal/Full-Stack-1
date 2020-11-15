@@ -20,10 +20,20 @@ h1{
     padding: 9px;
 }
 
-#text{
-    outline: none;
-    border: none;
+.text{
+    display: block;
+    justify-content: center;
     align-items: center;
+}
+
+
+#text{
+    outline:none ;
+    border: none;
+    
+    font-size: 20px;
+    padding: 14px;
+    margin: 10px;
 }
 
 
