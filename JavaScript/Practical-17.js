@@ -16,7 +16,8 @@ function digitalClock(){
     document.getElementById('greeting').innerHTML = greeting;
     document.getElementById('today').innerHTML = today;
     var text = document.getElementById('text');
-    text.onclick = () => {
+    text.onclick = (e) => {
+        e.preventDefault();
         text.innerHTML = text;
     }
 
