@@ -6,18 +6,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 60px;
-    padding: 50px;
+    margin: 50px;
 }
 
 .time{
     display: flex;
     flex-wrap: wrap;
-    
+    font-size: 50px;
+    max-height: 25vh;
 }
 
-h1{
+.time h1{
     padding: 9px;
+}
+
+.greeting{
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .text{
