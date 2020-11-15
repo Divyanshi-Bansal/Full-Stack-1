@@ -51,7 +51,7 @@ body{
     color:yellowgreen;
     outline: hidden;
     border: none;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .mood{
