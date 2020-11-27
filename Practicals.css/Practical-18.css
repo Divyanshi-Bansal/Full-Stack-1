@@ -6,4 +6,9 @@
 body{
     font-family:sans-serif;
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
 }
