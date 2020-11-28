@@ -14,4 +14,8 @@ body{
 
 .container{
     background-color: rgb(236, 234, 234);
+    padding: 20px 30px;
+    /*width: 500px;*/
+    border-radius: 7px;
 }
+
