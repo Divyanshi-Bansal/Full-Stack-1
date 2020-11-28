@@ -14,8 +14,21 @@ body{
 
 .container{
     background-color: rgb(236, 234, 234);
-    padding: 20px 30px;
-    /*width: 500px;*/
+    /* padding: 20px 30px; */
+    width: 500px;
     border-radius: 7px;
+    overflow: hidden;
 }
 
+.form{
+    padding: 20px ;
+}
+
+.header{
+    background-color: whitesmoke
+}
+
+.header h2{
+    padding: 20px;
+    text-align: center;
+}
