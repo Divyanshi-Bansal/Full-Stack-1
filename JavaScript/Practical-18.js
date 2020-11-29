@@ -4,6 +4,8 @@ var email = document.getElementById("email");
 var password1 =  document.getElementById("password1");
 var password2 =  document.getElementById("password2");
 var small =  document.getElementById("small");
+var wrong = document.getElementById("wrong");
+var right = document.getElementById("right");
 
 
 form.addEventListener('submit',(e)=>{
@@ -18,22 +20,31 @@ function checkInput(){
     var password1Value = password1.value;
     var password2Value = password2.value;
 
-    if(usernameValue ===""){
-        showError(username,"Username can't be blank!");
-    }
-    else{
-        showSuccess(username);
-    }
+    var list = ['usernameValue','emailValue','password1Value','password2Value'];
+    for (let index = 0; index < list.length; index++) {
+        var input = list[index];
+        if(usernameValue ===""){
+            showError(input);
+        }
+        else{
+            if(input.match(/^[a-z0-9]+$/g)){
+                showSuccess(input);
+            }
+            else{
+                
+            }
+        }
+    } 
 }
 
-function showError(input,msg){
-    var formcontrol =  input.parentNode;
-    formcontrol.className = "form=container error";
-    const small = formcontrol.querySelector("small");
-    small.innerHTML = msg;
+function showError(){
+    username.style.borderBottomColor = "red";
+    small.innerHTML = "Field can't be blank";
+    small.style.visibility = 'visible';
+    wrong.style.visibility = "visible";
 }
 
-function showSuccess(input){
-    var formcontrol =  input.parentNode;
-    formcontrol.className = "form=container successs";
+function showSuccess(msg){
+    msg.style.borderBottomColor = "green";
+    right.style.visibility = "visible";
 }
