@@ -18,5 +18,10 @@ function checkInput(){
     var password1Value = password1.value;
     var password2Value = password2.value;
 
-    
+    if(usernameValue ===""){
+        showError(username,"Username can't be blank!");
+    }
+    else{
+        showSuccess(username);
+    }
 }
