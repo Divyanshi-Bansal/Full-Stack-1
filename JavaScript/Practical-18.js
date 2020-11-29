@@ -25,3 +25,15 @@ function checkInput(){
         showSuccess(username);
     }
 }
+
+function showError(input,msg){
+    var formcontrol =  input.parentNode;
+    formcontrol.className = "form=container error";
+    const small = formcontrol.querySelector("small");
+    small.innerHTML = msg;
+}
+
+function showSuccess(input){
+    var formcontrol =  input.parentNode;
+    formcontrol.className = "form=container successs";
+}
