@@ -35,7 +35,7 @@ body{
 
 .form-container{
     margin-bottom: 10px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .form-container label{
@@ -44,7 +44,12 @@ body{
 }
 
 .form-container input{
-    width: 100% auto;
+    display: block;
+    width: 100%;
     padding: 10px;
-    
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color:rgb(236, 234, 234) ;
+    border-bottom-style: groove;
 }
