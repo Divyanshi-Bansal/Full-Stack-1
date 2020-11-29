@@ -8,4 +8,5 @@ var small =  document.getElementById("small");
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
+    
 });
