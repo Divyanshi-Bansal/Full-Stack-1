@@ -17,7 +17,7 @@ form.addEventListener('submit',(e)=>{
 function checkInput(){
     if (username.value ===''){
         username.style.borderBottomColor = "red";
-        small.innerHTML = "Field can't be blank";
+        small.innerHTML = "username can't be blank";
         small.style.visibility = 'visible';
         wrong.style.visibility = "visible";
     }
@@ -33,11 +33,12 @@ function checkInput(){
     }
     if(email.value ===''){
         email.style.borderBottomColor = "red";
-        small.innerHTML = "Field can't be blank";
+        small.innerHTML = "email-id can't be blank";
         small.style.visibility = 'visible';
         wrong.style.visibility = "visible";
+        wrong.style.top = '58px'
     }
-    else if(email.value.match(/@gmail.com$/gim)){
+    else if((email.value).match(/@gmail.com$/gim)){
         email.style.borderBottomColor =  'green';
         right.style.visibility  = 'visible';
     }
@@ -63,7 +64,7 @@ function checkInput(){
         small.style.visibility = 'visible';
         wrong.style.visibility = "visible";
     }
-    else if(password2.value.match(/password1/g)){
+    else if((password2.value).match(/password1/g)){
         password2.style.borderBottomColor = 'green';
         right.style.visibility = 'visible';
     }
