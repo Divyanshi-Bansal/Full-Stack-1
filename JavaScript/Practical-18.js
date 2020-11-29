@@ -74,57 +74,5 @@ function checkInput(){
         small.style.visibility = 'visible';
         wrong.style.visibility = "visible";
     }
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    var usernameValue = username.value;
-    var emailValue = email.value;
-    var password1Value = password1.value;
-    var password2Value = password2.value;
-
-    var list = ['username','email','password1','password2'];
-    for (let index = 0; index < list.length; index++) {
-        var input = list[index];
-        if(input.value ===""){
-            showError(input);
-        }
-        else{
-            if(input.value.match(/^[a-z0-9]+$/g)){
-                showSuccess(input);
-            }
-            else{
-                small.innerHTML = "username must contain small letters and no special symbols!";
-            }
-        }
-    } 
 }
 
-function showError(msg){
-    msg.style.borderBottomColor = "red";
-    small.innerHTML = "Field can't be blank";
-    small.style.visibility = 'visible';
-    wrong.style.visibility = "visible";
-}
-
-function showSuccess(msg){
-    msg.style.borderBottomColor = "green";
-    right.style.visibility = "visible";
-}
