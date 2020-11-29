@@ -13,5 +13,10 @@ form.addEventListener('submit',(e)=>{
 });
 
 function checkInput(){
+    var usernameValue = username.value;
+    var emailValue = email.value;
+    var password1Value = password1.value;
+    var password2Value = password2.value;
+
     
 }
