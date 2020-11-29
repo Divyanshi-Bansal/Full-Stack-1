@@ -79,3 +79,9 @@ body{
     border-radius: 30px;
     
 }
+#right{
+    color: green;
+}
+#wrong{
+    color: red;
+}
