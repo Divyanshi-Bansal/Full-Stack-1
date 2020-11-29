@@ -43,3 +43,8 @@ body{
     margin-bottom: 6px;
 }
 
+.form-container input{
+    width: 100% auto;
+    padding: 10px;
+    
+}
