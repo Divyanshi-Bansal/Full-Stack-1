@@ -70,7 +70,7 @@ body{
 
 .form button{
     display: block;
-    width: 95%;
+    width: 100%;
     background-color: rgb(119, 107, 107);
     color: white;
     padding: 10px;
