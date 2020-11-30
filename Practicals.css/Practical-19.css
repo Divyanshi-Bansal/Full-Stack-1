@@ -44,3 +44,14 @@ h1{
     align-items: center;
     margin: 20px;
 }
+
+button{
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    background-color:  rgb(77, 63, 63);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
