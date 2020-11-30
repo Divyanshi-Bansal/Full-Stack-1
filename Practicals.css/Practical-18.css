@@ -32,7 +32,9 @@ body{
     padding: 20px;
     text-align: center;
 }
-
+.form{
+    background: transparent;
+}
 .form-container{
     margin-bottom: 10px;
     padding-bottom: 20px;
@@ -51,7 +53,7 @@ body{
     border-radius: 5px;
     outline: none;
     border: none;
-    background-color:rgb(236, 234, 234) ;
+    /* background-color:transparent; */
     border-bottom-style: groove;
 }
 
@@ -81,6 +83,7 @@ body{
 }
 #right{
     color: green;
+    z-index:2;
 }
 #wrong{
     color: red;
