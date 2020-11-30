@@ -9,7 +9,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkgrey;
+    background-color: rgb(77, 63, 63);
     height: 100vh;
     /* border: 3px solid black; */
+}
+
+.container{
+    background-color: #fff;
+    /* width: 500px; */
+    border-radius: 9px;
 }
