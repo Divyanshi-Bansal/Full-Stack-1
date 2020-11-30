@@ -21,7 +21,7 @@ function checkInput(){
         small.style.visibility = 'visible';
         wrong.style.visibility = "visible";
     }
-    else if(username.value.match(/^[a-z0-9]+$/g)){
+    else if(username.value.match(/^[a-z0-9A-Z]+$/g)){
         username.style.borderBottomColor =  'green';
         right.style.visibility  = 'visible';
     }
@@ -36,7 +36,6 @@ function checkInput(){
         small.innerHTML = "email-id can't be blank";
         small.style.visibility = 'visible';
         wrong.style.visibility = "visible";
-        wrong.style.top = '58px'
     }
     else if((email.value).match(/@gmail.com$/gim)){
         email.style.borderBottomColor =  'green';
@@ -58,15 +57,16 @@ function checkInput(){
         password1.style.borderBottomColor = 'green';
         right.style.visibility='visible';
     }
-    if(password2.value ===''){
+    if((password2.value)===(password1.value)){
+        password2.style.borderBottomColor = 'green';
+        right.style.visibility = 'visible';
+        
+    }
+    else if(password2.value ===''){
         password2.style.borderBottomColor = "red";
         small.innerHTML = "Field can't be blank";
         small.style.visibility = 'visible';
         wrong.style.visibility = "visible";
-    }
-    else if((password2.value).match(/password1/g)){
-        password2.style.borderBottomColor = 'green';
-        right.style.visibility = 'visible';
     }
     else{
         password2.style.borderBottomColor = "red";
