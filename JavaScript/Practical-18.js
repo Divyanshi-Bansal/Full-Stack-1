@@ -57,16 +57,16 @@ function checkInput(){
         password1.style.borderBottomColor = 'green';
         right.style.visibility='visible';
     }
-    if((password2.value)===(password1.value)){
-        password2.style.borderBottomColor = 'green';
-        right.style.visibility = 'visible';
-        
-    }
-    else if(password2.value ===''){
+    if(password2.value ===''){
         password2.style.borderBottomColor = "red";
         small.innerHTML = "Field can't be blank";
         small.style.visibility = 'visible';
         wrong.style.visibility = "visible";
+    }
+    else if((password2.value)===(password1.value)){
+        password2.style.borderBottomColor = 'green';
+        right.style.visibility = 'visible';
+        
     }
     else{
         password2.style.borderBottomColor = "red";
