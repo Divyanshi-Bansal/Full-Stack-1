@@ -60,6 +60,7 @@ input{
     border-bottom-style: groove;
     font-size: 18px;
     /* width: 100%; */
+    background-color: transparent;
 }
 
 h1{
