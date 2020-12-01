@@ -88,3 +88,18 @@ button:hover{
     color: white;
     transition: 2s;
 }
+
+.step-row{
+    position: relative;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color:red;
+    height: 50px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+.step-col{
+    padding: 15px;
+}
