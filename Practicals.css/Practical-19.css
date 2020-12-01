@@ -110,8 +110,20 @@ button:hover{
 }
 
 #progress{
-    width: 130px;
+    width: 118px;
     height: 100%;
     background-color: rgb(163, 148, 148);
     position: absolute ;
+}
+
+#progress::after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    right: -20px;
+    top: 0px;
+    border-left: 20px solid  rgb(163, 148, 148);
 }
