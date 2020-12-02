@@ -31,6 +31,7 @@ form{
     flex-direction: column;
     /* left: 40px; */
     /* top: 400px; */
+    transition: 0.4s;
 }
 
 #form1{
