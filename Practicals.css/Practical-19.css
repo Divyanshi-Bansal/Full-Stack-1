@@ -95,9 +95,9 @@ button:hover{
 
 .step-row{
     position: relative;
-    width: 495px;
+    width: 500px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     /* background-color:red; */
     height: 50px;
     /* padding: 10px 20px; */
@@ -111,6 +111,8 @@ button:hover{
     width: 130px;
     position: relative;
     font-weight: bolder;
+    text-align: center;
+    z-index: 1;
 }
 
 #progress{
@@ -119,6 +121,7 @@ button:hover{
     background-color: rgb(163, 148, 148);
     position: absolute ;
     transition: 0.5s;
+    
 }
 
 #progress::after{
