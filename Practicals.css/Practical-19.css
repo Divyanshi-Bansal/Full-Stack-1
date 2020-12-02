@@ -118,6 +118,7 @@ button:hover{
     height: 100%;
     background-color: rgb(163, 148, 148);
     position: absolute ;
+    transition: 0.5s;
 }
 
 #progress::after{

@@ -23,7 +23,7 @@ next2.onclick = function(){
 back1.onclick = function(){
     form1.style.left = '40px';
     form2.style.left = '500px';
-    progress.style.width = '128px';
+    progress.style.width = '118px';
 }
 back2.onclick = function(){
     form2.style.left = '40px';
