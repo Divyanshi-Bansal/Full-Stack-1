@@ -6,3 +6,17 @@ var next1 = document.getElementById('next1');
 var next2 = document.getElementById('next2');
 var back1 = document.getElementById('back1');
 var back2 = document.getElementById('back2');
+
+next1.onclick = function(){
+    form1.style.left = '-500px';
+    form2.style.left = '90px';
+}
+next2.onclick = function(){
+    form2.style.left = '-500px';
+    form3.style.left = '90px';
+}
+
+back1.onclick = function(){
+    form2.style.right = '-500px'
+    form1.style.right = '500px'
+}
