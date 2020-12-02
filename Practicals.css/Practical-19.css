@@ -21,7 +21,7 @@ body{
     width: 500px;
     border-radius: 9px;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     height: 60vh;
 }
 
@@ -32,21 +32,24 @@ form{
     /* left: 40px; */
     /* top: 400px; */
     transition: 0.4s;
+    width: 87%;
 }
 
 #form1{
-    padding: 20px 30px;
+    /* padding: 10px 15px; */
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 0px;
-    width: 100%;
+    left: 40px;
+    /* width: 100%; */
 }
 #form2{
     left: 500px;
+    /* width: 100%; */
 }
 #form3{
     left: 500px;
+    /* width: 100%; */
 }
 
 input{

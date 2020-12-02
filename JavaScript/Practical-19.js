@@ -9,14 +9,18 @@ var back2 = document.getElementById('back2');
 
 next1.onclick = function(){
     form1.style.left = '-500px';
-    form2.style.left = '90px';
+    form2.style.left = '40px';
 }
 next2.onclick = function(){
     form2.style.left = '-500px';
-    form3.style.left = '90px';
+    form3.style.left = '40px';
 }
 
 back1.onclick = function(){
-    form2.style.right = '-500px'
-    form1.style.right = '500px'
+    form1.style.left = '40px'
+    form2.style.left = '500px'
+}
+back2.onclick = function(){
+    form2.style.left = '40px';
+    form3.style.left = '500px';
 }
