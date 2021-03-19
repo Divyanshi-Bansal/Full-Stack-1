@@ -18,22 +18,27 @@ body{
 .heading{
     display: block;
     text-align: center;
-    background-color: rgb(146, 151, 155);
+    /* background-color: rgb(247, 208, 240); */
     height: 100px;
     width: 100%;
     margin-top: 0;
     padding-top: 0;
     border: 1px solid white;
 }
-.heading h1{
+h1{
     color: black;
     font-size: 45px;
     font-weight: bolder;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif ;
     
 }
 h2{
     color: red;
+}
+
+.about{
+    text-align: center;
 }
 .about p{
     font-size: 20px;  
